@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AMCAdidasAccount Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AMCAdidasAccount" class="dashAnchor"></a>
+    <a title="AMCAdidasAccount Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ConnectCore Docs</a></p>
+        <p class="header-right"><a href="https://github.com/adimobile/adimobile.github.io"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ConnectCore Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AMCAdidasAccount Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AMCAddress.html">AMCAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCAdidasAccount.html">AMCAdidasAccount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCategory.html">AMCCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCConnectCore.html">AMCConnectCore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCConsent.html">AMCConsent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCConsumerAttribute.html">AMCConsumerAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCreateAccountRequest.html">AMCCreateAccountRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCreateAccountRequest.html#/s:VC11ConnectCore23AMCCreateAccountRequest17AMCLoyaltyDetails">– AMCLoyaltyDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCreateAccountResponse.html">AMCCreateAccountResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCEmailLookUpRequest.html">AMCEmailLookUpRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCEmailLookUpResponse.html">AMCEmailLookUpResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLookUpAccountRequest.html">AMCLookUpAccountRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLookUpAccountResponse.html">AMCLookUpAccountResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLoyaltyDetails.html">AMCLoyaltyDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCNewsletterSubscription.html">AMCNewsletterSubscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCNewsletterTopic.html">AMCNewsletterTopic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCPhone.html">AMCPhone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore13AMCSCVRequest">AMCSCVRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore14AMCSCVResponse">AMCSCVResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore8Location">Location</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAPIError.html">AMCAPIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAccountStatus.html">AMCAccountStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAccountType.html">AMCAccountType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAddressType.html">AMCAddressType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCCommonSCVConditionCode.html">AMCCommonSCVConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCConsentType.html">AMCConsentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCCreateAccountConditionCode.html">AMCCreateAccountConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCEmailFormat.html">AMCEmailFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCEnvironment.html">AMCEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCGender.html">AMCGender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCLoyaltyStatus.html">AMCLoyaltyStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCPhoneType.html">AMCPhoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EmailLookUpConditionCode.html">EmailLookUpConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LookUpAccountConditionCode.html">LookUpAccountConditionCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF11ConnectCoreoi1lFTCSo6NSDateS0__Sb">&lt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF11ConnectCoreoi2eeFTCSo6NSDateS0__Sb">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:P11ConnectCore19AMCSCVConditionCode">AMCSCVConditionCode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AMCAdidasAccount</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AMCAdidasAccount</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCoding</span></code></pre>
+
+                </div>
+              </div>
+            <p>Model containing all the properties needed in an adidas account.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount5emailGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/email" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount5emailGSqSS_">email</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Email address of the user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount4eUCIGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/eUCI" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount4eUCIGSqSS_">eUCI</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The eUCI is the <q>external</q> UCI, the unique recipient index in SCV.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">eUCI</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount11dateOfBirthGSqCSo6NSDate_"></a>
+                    <a name="//apple_ref/swift/Property/dateOfBirth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount11dateOfBirthGSqCSo6NSDate_">dateOfBirth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Date of birth of the user present in SCV.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">dateOfBirth</span><span class="p">:</span> <span class="kt">NSDate</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount9firstNameGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/firstName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount9firstNameGSqSS_">firstName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>First Name of the user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">firstName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount10middleNameGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/middleName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount10middleNameGSqSS_">middleName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Middle Name of the user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">middleName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount8lastNameGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/lastName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount8lastNameGSqSS_">lastName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Last Name of the user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lastName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount6genderGSqOS_9AMCGender_"></a>
+                    <a name="//apple_ref/swift/Property/gender" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount6genderGSqOS_9AMCGender_">gender</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gender of the user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gender</span><span class="p">:</span> <span class="kt">AMCGender</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount6heightGSqSi_"></a>
+                    <a name="//apple_ref/swift/Property/height" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount6heightGSqSi_">height</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Height of the recipient in CMs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">height</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount6weightGSqSi_"></a>
+                    <a name="//apple_ref/swift/Property/weight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount6weightGSqSi_">weight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Weight of the recipient in grams.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">weight</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount8usernameGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/username" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount8usernameGSqSS_">username</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>User Name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount12mobileNumberGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/mobileNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount12mobileNumberGSqSS_">mobileNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Mobile number  of the user as present in SCV.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">mobileNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount14landLineNumberGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/landLineNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount14landLineNumberGSqSS_">landLineNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Landline number of the user as present in SCV.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">landLineNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount10facebookIdGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/facebookId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount10facebookIdGSqSS_">facebookId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Facebook Id stored along with user record.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">facebookId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount6bbmPinGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/bbmPin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount6bbmPinGSqSS_">bbmPin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Black Berry Messaging Pin</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bbmPin</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount18profileDescriptionGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/profileDescription" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount18profileDescriptionGSqSS_">profileDescription</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Profile description provided by the user</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">profileDescription</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount16dateLastModifiedGSqCSo6NSDate_"></a>
+                    <a name="//apple_ref/swift/Property/dateLastModified" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount16dateLastModifiedGSqCSo6NSDate_">dateLastModified</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The date time when the recipient personal information was last modified in SCV. The date will be returned in GMT timezone.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">dateLastModified</span><span class="p">:</span> <span class="kt">NSDate</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount3amfGSqSb_"></a>
+                    <a name="//apple_ref/swift/Property/amf" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount3amfGSqSb_">amf</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Accept Mail Flag</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">amf</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount3ecfGSqSb_"></a>
+                    <a name="//apple_ref/swift/Property/ecf" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount3ecfGSqSb_">ecf</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Email Confirmation Flag</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ecf</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount8consentsGSqGSaCS_10AMCConsent__"></a>
+                    <a name="//apple_ref/swift/Property/consents" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount8consentsGSqGSaCS_10AMCConsent__">consents</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List of consent(s) elements for different consent types.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">consents</span><span class="p">:</span> <span class="p">[</span><span class="kt">AMCConsent</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount18consumerAttributesGSqGSaCS_20AMCConsumerAttribute__"></a>
+                    <a name="//apple_ref/swift/Property/consumerAttributes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount18consumerAttributesGSqGSaCS_20AMCConsumerAttribute__">consumerAttributes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List of consumer attribute(s) elements for different attribute types as per master data in SCV.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">consumerAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">AMCConsumerAttribute</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount13signupCountryGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/signupCountry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount13signupCountryGSqSS_">signupCountry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The first signup country of the recipient. The ISO A2 code will be returned.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">signupCountry</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount11emailFormatGSqOS_14AMCEmailFormat_"></a>
+                    <a name="//apple_ref/swift/Property/emailFormat" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount11emailFormatGSqOS_14AMCEmailFormat_">emailFormat</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Email Format of the recipient.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">emailFormat</span><span class="p">:</span> <span class="kt">AMCEmailFormat</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount14consentVersionGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/consentVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount14consentVersionGSqSS_">consentVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Consent version confirmed by the USER.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">consentVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount14alternateEmailGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/alternateEmail" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount14alternateEmailGSqSS_">alternateEmail</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Alternate email address of the USER.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">alternateEmail</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount9addressesGSqGSaCS_10AMCAddress__"></a>
+                    <a name="//apple_ref/swift/Property/addresses" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount9addressesGSqGSaCS_10AMCAddress__">addresses</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>User Adrresses.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">addresses</span><span class="p">:</span> <span class="p">[</span><span class="kt">AMCAddress</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount16newsletterTopicsGSqGSaCS_18AMCNewsletterTopic__"></a>
+                    <a name="//apple_ref/swift/Property/newsletterTopics" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount16newsletterTopicsGSqGSaCS_18AMCNewsletterTopic__">newsletterTopics</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>One to many relationship. This would contain a list of topics. Each topic has the topic id, 
+parent topicId, localized descriptions and a flag that indicates whether the recipient has subscribed to the topic.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">newsletterTopics</span><span class="p">:</span> <span class="p">[</span><span class="kt">AMCNewsletterTopic</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount10categoriesGSqGSaCS_11AMCCategory__"></a>
+                    <a name="//apple_ref/swift/Property/categories" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount10categoriesGSqGSaCS_11AMCCategory__">categories</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This would contain a list of all categories applicable for the site. Each category will have 
+a categoryid and category name. The array includes AUACategory instances.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">categories</span><span class="p">:</span> <span class="p">[</span><span class="kt">AMCCategory</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount13subscriptionsGSqGSaCS_25AMCNewsletterSubscription__"></a>
+                    <a name="//apple_ref/swift/Property/subscriptions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount13subscriptionsGSqGSaCS_25AMCNewsletterSubscription__">subscriptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>One to many relationship. This would contain multiple subscriptions which are applicable for the site and each 
+subscription will have the details like categoryid (to which category it belongs to), newsletterTypeId,
+newsletterTypeName and a subscribedFlag which indicates whether the recipient is subscribed or not.  The list structure is given below</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">subscriptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">AMCNewsletterSubscription</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount18listOfApplicationsGSqGSaSS__"></a>
+                    <a name="//apple_ref/swift/Property/listOfApplications" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount18listOfApplicationsGSqGSaSS__">listOfApplications</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The list of applications that are integrated in SCV. Would be used to display appropriate messages in the frontend.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">listOfApplications</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore16AMCAdidasAccount14loyaltyDetailsGSqCS_17AMCLoyaltyDetails_"></a>
+                    <a name="//apple_ref/swift/Property/loyaltyDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore16AMCAdidasAccount14loyaltyDetailsGSqCS_17AMCLoyaltyDetails_">loyaltyDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Loyalty Details of the user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">loyaltyDetails</span><span class="p">:</span> <span class="kt">AMCLoyaltyDetails</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore16AMCAdidasAccountcFT5coderCSo7NSCoder_GSqS0__"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore16AMCAdidasAccountcFT5coderCSo7NSCoder_GSqS0__">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AMCAdidasAccount</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCoding</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore16AMCAdidasAccount15encodeWithCoderFCSo7NSCoderT_"></a>
+                    <a name="//apple_ref/swift/Method/encodeWithCoder(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore16AMCAdidasAccount15encodeWithCoderFCSo7NSCoderT_">encodeWithCoder(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AMCAdidasAccount</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCoding</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2016 adidas mobile team. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

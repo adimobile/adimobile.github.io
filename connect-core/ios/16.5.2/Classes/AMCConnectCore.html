@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AMCConnectCore Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AMCConnectCore" class="dashAnchor"></a>
+    <a title="AMCConnectCore Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ConnectCore Docs</a></p>
+        <p class="header-right"><a href="https://github.com/adimobile/adimobile.github.io"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ConnectCore Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AMCConnectCore Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AMCAddress.html">AMCAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCAdidasAccount.html">AMCAdidasAccount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCategory.html">AMCCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCConnectCore.html">AMCConnectCore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCConsent.html">AMCConsent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCConsumerAttribute.html">AMCConsumerAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCreateAccountRequest.html">AMCCreateAccountRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCreateAccountRequest.html#/s:VC11ConnectCore23AMCCreateAccountRequest17AMCLoyaltyDetails">– AMCLoyaltyDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCreateAccountResponse.html">AMCCreateAccountResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCEmailLookUpRequest.html">AMCEmailLookUpRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCEmailLookUpResponse.html">AMCEmailLookUpResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLookUpAccountRequest.html">AMCLookUpAccountRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLookUpAccountResponse.html">AMCLookUpAccountResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLoyaltyDetails.html">AMCLoyaltyDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCNewsletterSubscription.html">AMCNewsletterSubscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCNewsletterTopic.html">AMCNewsletterTopic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCPhone.html">AMCPhone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore13AMCSCVRequest">AMCSCVRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore14AMCSCVResponse">AMCSCVResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore8Location">Location</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAPIError.html">AMCAPIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAccountStatus.html">AMCAccountStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAccountType.html">AMCAccountType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAddressType.html">AMCAddressType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCCommonSCVConditionCode.html">AMCCommonSCVConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCConsentType.html">AMCConsentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCCreateAccountConditionCode.html">AMCCreateAccountConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCEmailFormat.html">AMCEmailFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCEnvironment.html">AMCEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCGender.html">AMCGender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCLoyaltyStatus.html">AMCLoyaltyStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCPhoneType.html">AMCPhoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EmailLookUpConditionCode.html">EmailLookUpConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LookUpAccountConditionCode.html">LookUpAccountConditionCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF11ConnectCoreoi1lFTCSo6NSDateS0__Sb">&lt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF11ConnectCoreoi2eeFTCSo6NSDateS0__Sb">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:P11ConnectCore19AMCSCVConditionCode">AMCSCVConditionCode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AMCConnectCore</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AMCConnectCore</span></code></pre>
+
+                </div>
+              </div>
+            <p>Main class of Connect Core for dealing with user authentication and account management</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/TODO:%20Remove%20these%20next%20two%20lines%20when%20we%20have%20error%20handling%20from%20Mark"></a>
+                <a name="//apple_ref/swift/Section/TODO: Remove these next two lines when we have error handling from Mark" class="dashAnchor"></a>
+                <a href="#/TODO:%20Remove%20these%20next%20two%20lines%20when%20we%20have%20error%20handling%20from%20Mark">
+                  <h3 class="section-name">TODO: Remove these next two lines when we have error handling from Mark</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore14AMCConnectCore13countryOfSiteSS"></a>
+                    <a name="//apple_ref/swift/Property/countryOfSite" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore14AMCConnectCore13countryOfSiteSS">countryOfSite</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The ISO 3166 - A2 code of country of site for Mobile App</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">countryOfSite</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCorecFT8clientIdSS11environmentOS_14AMCEnvironment13countryOfSiteGSqSS__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(clientId:environment:countryOfSite:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCorecFT8clientIdSS11environmentOS_14AMCEnvironment13countryOfSiteGSqSS__S0_">init(clientId:environment:countryOfSite:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a new AMCConnectCore instance with the provided specifications.</p>
+
+<p><li><p>Parameters:</p></p>
+
+<p><ul>
+<li>clientId: Client Identifier that identifies the application in backend</li>
+<li>environment: Environment in which the framework will operate</li>
+<li>countryOfSite: The ISO 3166 - A2 code of country of site for Mobile App</li>
+</ul></li>
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    <p>A new AMCConnectCore instance.</p></p>
+
+<p></div></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">environment</span><span class="p">:</span> <span class="kt">AMCEnvironment</span><span class="p">,</span> <span class="nv">countryOfSite</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>clientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Client Identifier that identifies the application in backend</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>environment</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Environment in which the framework will operate</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>countryOfSite</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The ISO 3166 - A2 code of country of site for Mobile App</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A new AMCConnectCore instance.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore5loginFTGSqSS_8usernameGSqSS_8passwordGSqSS_5scopeGSqSS_14successClosureFT17requestIdentifierSi_T_12errorClosureFT17requestIdentifierSi5errorCSo7NSError_T__Si"></a>
+                    <a name="//apple_ref/swift/Method/login(_:username:password:scope:successClosure:errorClosure:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore5loginFTGSqSS_8usernameGSqSS_8passwordGSqSS_5scopeGSqSS_14successClosureFT17requestIdentifierSi_T_12errorClosureFT17requestIdentifierSi5errorCSo7NSError_T__Si">login(_:username:password:scope:successClosure:errorClosure:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Login the user with email address and password.</p>
+
+<p><li><p>Parameters:</p></p>
+
+<p><ul>
+<li>validatorId: Authentication validator to be used.</li>
+<li>username: Username.</li>
+<li>password: Password of user account</li>
+<li>scope: Required scope</li>
+<li>successClosure: Closure that will be called if the response from backend is successful. It will pass:</p>
+
+<p><ul>
+<li>requestIdentifier: Identifier for your request. You&rsquo;ll receive the same identifier when login is executed.</li>
+</ul></li>
+<li>errorClosure: Closure that will be called if the response from backend is not successful. It will pass:</p>
+
+<p><ul>
+<li>requestIdentifier: Identifier for your request. You&rsquo;ll receive the same identifier when login is executed.</li>
+<li>error: Instance with information about the error. You can receive system errors like <q>No host is available</q> or errors with domain like <q>MOBILE_ERR_0001</q> when an unexpected response from backend is received or error like <q>invalid_grant</q> when credentials are wrong, or the age of the user does not comply with the legal age of the country</li>
+</ul></li>
+</ul></li>
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    <p>Identifier for your request. You&rsquo;ll receive the same identifier when operation is completed.</p></p>
+
+<p></div></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">validatorId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">username</span><span class="p">:</span><span class="kt">String</span><span class="p">?,</span> <span class="nv">password</span><span class="p">:</span><span class="kt">String</span><span class="p">?,</span> <span class="nv">scope</span><span class="p">:</span><span class="kt">String</span><span class="p">?,</span> <span class="nv">successClosure</span><span class="p">:</span> <span class="p">(</span><span class="nv">requestIdentifier</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span> <span class="nv">errorClosure</span><span class="p">:</span> <span class="p">(</span><span class="nv">requestIdentifier</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>validatorId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Authentication validator to be used.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>username</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Username.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Password of user account</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scope</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Required scope</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>successClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Closure that will be called if the response from backend is successful. It will pass:</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Closure that will be called if the response from backend is not successful. It will pass:</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Identifier for your request. You&rsquo;ll receive the same identifier when operation is completed.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore12refreshTokenFzTGSqSS_14successClosureFT17requestIdentifierSi_T_12errorClosureFT17requestIdentifierSi5errorCSo7NSError_T__Si"></a>
+                    <a name="//apple_ref/swift/Method/refreshToken(_:successClosure:errorClosure:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore12refreshTokenFzTGSqSS_14successClosureFT17requestIdentifierSi_T_12errorClosureFT17requestIdentifierSi5errorCSo7NSError_T__Si">refreshToken(_:successClosure:errorClosure:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Refresh user&rsquo;s tokens.</p>
+
+<p><li>Parameters:</p>
+
+<p><ul>
+<li>scope: Required scope/s</li>
+<li>successClosure: Closure that will be called if the response from backend is successful.</li>
+<li>errorClosure: Closure that will be called if the response from backend is not successful.</li>
+</ul></li>
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    Identifier for your request. You&rsquo;ll receive the same identifier when operation is completed.</p>
+
+<p></div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Throws an error if try to refresh a token without being logged in</p>
+
+<p></div></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">refreshToken</span><span class="p">(</span><span class="nv">scope</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">successClosure</span><span class="p">:</span> <span class="p">(</span><span class="nv">requestIdentifier</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span> <span class="nv">errorClosure</span><span class="p">:</span> <span class="p">(</span><span class="nv">requestIdentifier</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scope</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Required scope/s</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>successClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Closure that will be called if the response from backend is successful.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Closure that will be called if the response from backend is not successful.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Identifier for your request. You&rsquo;ll receive the same identifier when operation is completed.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore19handleResetPasswordFTSS21communicationLanguageGSqSS_10expiryTimeSi7baseUrlSS6sourceGSqSS_14successClosureFT17requestIdentifierSi_T_12errorClosureFT17requestIdentifierSi5errorCSo7NSError_T__Si"></a>
+                    <a name="//apple_ref/swift/Method/handleResetPassword(_:communicationLanguage:expiryTime:baseUrl:source:successClosure:errorClosure:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore19handleResetPasswordFTSS21communicationLanguageGSqSS_10expiryTimeSi7baseUrlSS6sourceGSqSS_14successClosureFT17requestIdentifierSi_T_12errorClosureFT17requestIdentifierSi5errorCSo7NSError_T__Si">handleResetPassword(_:communicationLanguage:expiryTime:baseUrl:source:successClosure:errorClosure:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Triggers a new request to SCV for reset password. User will get an email on the specified email address with instructuctions for password reset.</p>
+
+<p><li>Parameters:</p>
+
+<p><ul>
+<li>email: email where reset password instructions will be delivered.</li>
+<li>communicationLanguage: Preferred language of communication. Optional.</li>
+<li>expiryTime: The duration(in minutes) till which reset password token remains valid E.g. 120 = 2 hours.</li>
+<li>baseUrl: The url where user will set a new password.</li>
+<li>source: The exact source of touch point of user to SCV. Optional.</li>
+<li>successClosure: Closure that will be called if the response from backend is not successful.</li>
+<li>errorClosure: Closure that will be called if the response from backend is not successful.</li>
+</ul></li>
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    Request identifier for tracking purposes.</p>
+
+<p></div></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">handleResetPassword</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">communicationLanguage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">expiryTime</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">baseUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">source</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">successClosure</span><span class="p">:</span> <span class="p">(</span><span class="nv">requestIdentifier</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span> <span class="nv">errorClosure</span><span class="p">:</span> <span class="p">(</span><span class="nv">requestIdentifier</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>email</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>email where reset password instructions will be delivered.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>communicationLanguage</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Preferred language of communication. Optional.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>expiryTime</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The duration(in minutes) till which reset password token remains valid E.g. 120 = 2 hours.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>baseUrl</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The url where user will set a new password.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>source</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The exact source of touch point of user to SCV. Optional.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>successClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Closure that will be called if the response from backend is not successful.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Closure that will be called if the response from backend is not successful.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Request identifier for tracking purposes.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore11emailLookupFCS_21AMCEmailLookUpRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/emailLookup(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore11emailLookupFCS_21AMCEmailLookUpRequestT_">emailLookup(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method that checks the email within SCV(Adidas) and the type of account if registered</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">emailLookup</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt">AMCEmailLookUpRequest</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request The email lookup request.</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore13createAccountFCS_23AMCCreateAccountRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/createAccount(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore13createAccountFCS_23AMCCreateAccountRequestT_">createAccount(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new account in adidas.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createAccount</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt">AMCCreateAccountRequest</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request The create account request.</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore13lookupAccountFCS_23AMCLookUpAccountRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/lookupAccount(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore13lookupAccountFCS_23AMCLookUpAccountRequestT_">lookupAccount(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method is used to lookup/fetch user&rsquo;s personal information, address information and newsletter information from SCV.
+- parameter request The lookup account request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">lookupAccount</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt">AMCLookUpAccountRequest</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request The lookup account request.</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore15getRefreshTokenFT_GSqSS_"></a>
+                    <a name="//apple_ref/swift/Method/getRefreshToken()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore15getRefreshTokenFT_GSqSS_">getRefreshToken()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the refresh token
+- Returns: refresh token from last time user signed in or token was refreshed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getRefreshToken</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>refresh token from last time user signed in or token was refreshed</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore14getAccessTokenFT_GSqSS_"></a>
+                    <a name="//apple_ref/swift/Method/getAccessToken()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14getAccessTokenFT_GSqSS_">getAccessToken()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the access token
+- Returns: access token from last time user signed in or token was refreshed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAccessToken</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>access token from last time user signed in or token was refreshed</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore14isUserLoggedInFT_Sb"></a>
+                    <a name="//apple_ref/swift/Method/isUserLoggedIn()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14isUserLoggedInFT_Sb">isUserLoggedIn()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to know if the user is logged in. This method does not check if authentication token is valid. It checks that there is a token and that it&rsquo;s not expired.
+- Returns: if the user is in logged in state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isUserLoggedIn</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>if the user is in logged in state.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore11getUserDataFT_GSqCS_16AMCAdidasAccount_"></a>
+                    <a name="//apple_ref/swift/Method/getUserData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore11getUserDataFT_GSqCS_16AMCAdidasAccount_">getUserData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the user data cached after calling to createAccount or lookupAccount methods
+- Returns: user data cached after calling to createAccount or lookupAccount methods</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getUserData</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AMCAdidasAccount</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>user data cached after calling to createAccount or lookupAccount methods</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2016 adidas mobile team. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
