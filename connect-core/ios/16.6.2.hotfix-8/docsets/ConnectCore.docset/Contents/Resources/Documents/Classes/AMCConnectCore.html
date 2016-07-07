@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AMCConnectCore Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AMCConnectCore" class="dashAnchor"></a>
+    <a title="AMCConnectCore Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ConnectCore Docs</a></p>
+        <p class="header-right"><a href="https://github.com/adimobile/adimobile.github.io"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ConnectCore Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AMCConnectCore Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AMCConnectCore.html">AMCConnectCore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCreateUserRequest.html">AMCCreateUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCCreateUserResponse.html">AMCCreateUserResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCGetUserRequest.html">AMCGetUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCGetUserResponse.html">AMCGetUserResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCHandleResetPasswordRequest.html">AMCHandleResetPasswordRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore30AMCHandleResetPasswordResponse">AMCHandleResetPasswordResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCIsUserExistingRequest.html">AMCIsUserExistingRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCIsUserExistingResponse.html">AMCIsUserExistingResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLoginRequest.html">AMCLoginRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore16AMCLoginResponse">AMCLoginResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCRefreshTokenRequest.html">AMCRefreshTokenRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore23AMCRefreshTokenResponse">AMCRefreshTokenResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCRequest.html">AMCRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCResponse.html">AMCResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCToken.html">AMCToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCUpdateUserRequest.html">AMCUpdateUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore21AMCUpdateUserResponse">AMCUpdateUserResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCUser.html">AMCUser</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AMCAPIError.html">AMCAPIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCCommonPFConditionCode.html">AMCCommonPFConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCCommonSCVConditionCode.html">AMCCommonSCVConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCCreateUserConditionCode.html">AMCCreateUserConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCEnvironment.html">AMCEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCGetUserConditionCode.html">AMCGetUserConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCHandleResetPasswordConditionCode.html">AMCHandleResetPasswordConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCIsUserExistingConditionCode.html">AMCIsUserExistingConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCService.html">AMCService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCSessionStatus.html">AMCSessionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCUpdateUserConditionCode.html">AMCUpdateUserConditionCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF11ConnectCoreoi1lFTCSo6NSDateS0__Sb">&lt;(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:P11ConnectCore18AMCPFConditionCode">AMCPFConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:P11ConnectCore19AMCSCVConditionCode">AMCSCVConditionCode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AMCConnectCore</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCConnectCore</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Main class of Connect Core for dealing with user authentication and user management</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore14AMCConnectCore13countryOfSiteGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/countryOfSite" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore14AMCConnectCore13countryOfSiteGSqSS_">countryOfSite</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The ISO 3166 - A2 code of country of site for Mobile App</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">countryOfSite</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore14AMCConnectCore11legalEntityGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/legalEntity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore14AMCConnectCore11legalEntityGSqSS_">legalEntity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Legal Entity for Mobile App</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">legalEntity</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore14AMCConnectCore14clientIdSecretGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/clientIdSecret" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore14AMCConnectCore14clientIdSecretGSqSS_">clientIdSecret</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Secret to be used with the client ID in case your app requieres it</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">clientIdSecret</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCorecFT8clientIdSS7serviceOS_10AMCService11environmentOS_14AMCEnvironment13countryOfSiteGSqSS_11legalEntityGSqSS_14clientIdSecretGSqSS_28keychainLocalAccessGroupNameGSqSS__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(clientId:service:environment:countryOfSite:legalEntity:clientIdSecret:keychainLocalAccessGroupName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCorecFT8clientIdSS7serviceOS_10AMCService11environmentOS_14AMCEnvironment13countryOfSiteGSqSS_11legalEntityGSqSS_14clientIdSecretGSqSS_28keychainLocalAccessGroupNameGSqSS__S0_">init(clientId:service:environment:countryOfSite:legalEntity:clientIdSecret:keychainLocalAccessGroupName:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a new AMCConnectCore instance with the provided specifications.</p>
+
+<p><li><p>Parameters:</p></p>
+
+<p><ul>
+<li>clientId: Client Identifier that identifies the application in backend</li>
+<li>service: Service in which the framework will operate</li>
+<li>environment: Environment in which the framework will operate</li>
+<li>countryOfSite: The ISO 3166 - A2 code of country of site for Mobile App</li>
+<li>legalEntity: Legal Entity for Mobile App</li>
+<li>clientIdSecret: Secret to be used with the client ID in case your app requieres it</li>
+<li>keychainLocalAccessGroup: Identifier of local keychain access group. Specify this parameter if application should support cross application login. Has to be such as main bundle identifier of the application same as first access group specified in the project Capabilities</li>
+</ul></li>
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    <p>A new AMCConnectCore instance.</p></p>
+
+<p></div></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">service</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCService.html">AMCService</a></span><span class="p">,</span> <span class="nv">environment</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCEnvironment.html">AMCEnvironment</a></span><span class="p">,</span> <span class="nv">countryOfSite</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">legalEntity</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">clientIdSecret</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">keychainLocalAccessGroupName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>clientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Client Identifier that identifies the application in backend</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>service</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Service in which the framework will operate</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>environment</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Environment in which the framework will operate</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>countryOfSite</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The ISO 3166 - A2 code of country of site for Mobile App</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>legalEntity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Legal Entity for Mobile App</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>clientIdSecret</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Secret to be used with the client ID in case your app requieres it</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>keychainLocalAccessGroup</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Identifier of local keychain access group. Specify this parameter if application should support cross application login. Has to be such as main bundle identifier of the application same as first access group specified in the project Capabilities</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A new AMCConnectCore instance.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore5loginFCS_15AMCLoginRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/login(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore5loginFCS_15AMCLoginRequestT_">login(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Login the user with email address and password.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCLoginRequest.html">AMCLoginRequest</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request The login request.</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore12refreshTokenFzCS_22AMCRefreshTokenRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/refreshToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore12refreshTokenFzCS_22AMCRefreshTokenRequestT_">refreshToken(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Refresh user&rsquo;s tokens.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">refreshToken</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCRefreshTokenRequest.html">AMCRefreshTokenRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request The refresh token request.</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore10createUserFCS_20AMCCreateUserRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/createUser(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10createUserFCS_20AMCCreateUserRequestT_">createUser(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new user in adidas.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCCreateUserRequest.html">AMCCreateUserRequest</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The create user request.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore7getUserFCS_17AMCGetUserRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/getUser(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore7getUserFCS_17AMCGetUserRequestT_">getUser(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method is used to lookup/fetch user&rsquo;s personal information, address information and newsletter information from SCV.
+- parameter request The lookup user request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getUser</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCGetUserRequest.html">AMCGetUserRequest</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request The lookup user request.</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore14isUserExistingFCS_24AMCIsUserExistingRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/isUserExisting(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14isUserExistingFCS_24AMCIsUserExistingRequestT_">isUserExisting(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method that checks the email or mobile number within SCV(Adidas)
+- parameter request The is user existing request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isUserExisting</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCIsUserExistingRequest.html">AMCIsUserExistingRequest</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request The is user existing request.</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore19handleResetPasswordFCS_29AMCHandleResetPasswordRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/handleResetPassword(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore19handleResetPasswordFCS_29AMCHandleResetPasswordRequestT_">handleResetPassword(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method that Handle a reset password for an email address
+- parameter request The handle reset password request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">handleResetPassword</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCHandleResetPasswordRequest.html">AMCHandleResetPasswordRequest</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request The handle reset password request.</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore10updateUserFCS_20AMCUpdateUserRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/updateUser(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10updateUserFCS_20AMCUpdateUserRequestT_">updateUser(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Update an existing user in adidas.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateUser</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCUpdateUserRequest.html">AMCUpdateUserRequest</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The update user request.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore10getSessionFT6sharedSb_GSqCS_8AMCToken_"></a>
+                    <a name="//apple_ref/swift/Method/getSession(shared:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10getSessionFT6sharedSb_GSqCS_8AMCToken_">getSession(shared:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the session</p>
+
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    <p>session from last time user signed in or token was refreshed</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getSession</span><span class="p">(</span><span class="n">shared</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AMCToken.html">AMCToken</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>shared</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If true you&rsquo;ll receive the shared session, not the local session of the application</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>session from last time user signed in or token was refreshed</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore14isUserLoggedInFT_OS_16AMCSessionStatus"></a>
+                    <a name="//apple_ref/swift/Method/isUserLoggedIn()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14isUserLoggedInFT_OS_16AMCSessionStatus">isUserLoggedIn()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to know if the user is logged in. This method does not check if authentication token is valid. It checks that there is a token and that it&rsquo;s not expired.</p>
+
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    if the user is in logged in state.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isUserLoggedIn</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/AMCSessionStatus.html">AMCSessionStatus</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>if the user is in logged in state.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore16useSharedSessionFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/useSharedSession()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore16useSharedSessionFT_T_">useSharedSession()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to place shared token to local storage</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">useSharedSession</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/TODO:%20Next%20methods%20are%20used%20only%20for%20shared%20credentials.%20To%20be%20remade%20later"></a>
+                <a name="//apple_ref/swift/Section/TODO: Next methods are used only for shared credentials. To be remade later" class="dashAnchor"></a>
+                <a href="#/TODO:%20Next%20methods%20are%20used%20only%20for%20shared%20credentials.%20To%20be%20remade%20later">
+                  <h3 class="section-name">TODO: Next methods are used only for shared credentials. To be remade later</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore6logoutFTFT_T_12errorClosureFT_T__T_"></a>
+                    <a name="//apple_ref/swift/Method/logout(_:errorClosure:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore6logoutFTFT_T_12errorClosureFT_T__T_">logout(_:errorClosure:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Logout the user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">logout</span><span class="p">(</span><span class="nv">successClosure</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span> <span class="nv">errorClosure</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore23deleteSharedCredentialsFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/deleteSharedCredentials()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore23deleteSharedCredentialsFT_T_">deleteSharedCredentials()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove current shared Ping Federate credentials.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteSharedCredentials</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2016 adidas mobile team. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
