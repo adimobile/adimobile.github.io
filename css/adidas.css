@@ -1,5 +1,7 @@
+.jumbotron {
+    background-color:#000
+}
 .logo {
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -9,7 +11,6 @@
 }
 
 .logo:after {
-    position: absolute;
     left: 0;
     top: 50%;
     content: '\e904';
@@ -27,6 +28,7 @@
     font: 22px / 22px 'adiBlack', Arial, Helvetica, Verdana, sans-serif
 }
 
-.subtitle{
+.subtitle {
+    color:#ffffff;
   font-family: 'adihausregular', Arial, Helvetica, Verdana, sans-serif
 }
