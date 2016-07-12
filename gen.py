@@ -24,8 +24,8 @@ with document(title='adimobile javadoc') as doc:
     for folder in root:
         h1(folder)
         for sub in root[folder]:
-            div(a(sub, href='%s/%s/index.html' % (folder,sub)))
+            div(a(sub, href='%s/%s/index-android.html' % (folder,sub)))
 
-with open('index.html', 'w') as f:
+with open('index-android.html', 'w') as f:
     f.write(doc.render())
 print root
