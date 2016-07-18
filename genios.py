@@ -7,11 +7,11 @@ print "dirs prints out sub-directories from root"
 print "files prints out all files from root and directories"
 print "*" * 20
 
-
+excluded_folders=['icons','fonts','js','css','.git']
 root={}
 for item in os.listdir("."):
     if not os.path.isfile(os.path.join(".", item)):
-        if (item != ".git"):
+        if (item not in excluded_folders):
             print "Folder: ",item
             subfolders=[]
             for item2 in os.listdir(os.path.join(".", item, "ios")):
