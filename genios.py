@@ -7,7 +7,7 @@ print "dirs prints out sub-directories from root"
 print "files prints out all files from root and directories"
 print "*" * 20
 
-excluded_folders=['icons','fonts','js','css','.git']
+excluded_folders=['icons','fonts','js','css','.git','connect-scv','connect-ui','ui-library']
 root={}
 for item in os.listdir("."):
     if not os.path.isfile(os.path.join(".", item)):
