@@ -1,0 +1,10 @@
+com.adidas.connect
+com.adidas.connect.action
+com.adidas.connect.adapter
+com.adidas.connect.api
+com.adidas.connect.configuration
+com.adidas.connect.interceptor
+com.adidas.connect.model
+com.adidas.connect.notifications
+com.adidas.connect.request
+com.adidas.connect.response
