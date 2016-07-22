@@ -38,7 +38,13 @@
                 <a href="../Classes/AUIAlertController.html">AUIAlertController</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/AUICoverAnimationContainerView.html">AUICoverAnimationContainerView</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/AUIEmailInputView.html">AUIEmailInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUILinkedTextLabel.html">AUILinkedTextLabel</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AUILoaderView.html">AUILoaderView</a>
@@ -71,6 +77,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/AUIAlertActionStyle.html">AUIAlertActionStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUICoverAnimationDirection.html">AUICoverAnimationDirection</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/AUIInputViewValidationState.html">AUIInputViewValidationState</a>
@@ -523,7 +532,7 @@ alertController.addAction(destroyAction)</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController5titleGSqSS_">title</a></span> <span class="nv">aTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController7messageGSqSS_">message</a></span> <span class="nv">aMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">title</span> <span class="nv">aTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">message</span> <span class="nv">aMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -590,7 +599,7 @@ alertController.addAction(destroyAction)</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController5titleGSqSS_">title</a></span> <span class="nv">aTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController7messageGSqSS_">message</a></span> <span class="nv">aMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController4iconGSqCSo7UIImage_">icon</a></span> <span class="nv">aIcon</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController10subMessageGSqSS_">subMessage</a></span> <span class="nv">aSubMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="n">title</span> <span class="nv">aTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">message</span> <span class="nv">aMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">icon</span> <span class="nv">aIcon</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="n">subMessage</span> <span class="nv">aSubMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -764,7 +773,7 @@ alertController.addAction(destroyAction)</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addAction</span><span class="p">(</span><span class="nv">action</span><span class="p">:</span> <span class="kt"><a href="../Classes/AUIAlertAction.html">AUIAlertAction</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addAction</span><span class="p">(</span><span class="nv">action</span><span class="p">:</span> <span class="kt">AUIAlertAction</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -824,7 +833,7 @@ alertController.addAction(destroyAction)</p>
         </section>
         <section id="footer">
           <p>Copyright © 2016 adidas mobile team. All rights reserved.</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
