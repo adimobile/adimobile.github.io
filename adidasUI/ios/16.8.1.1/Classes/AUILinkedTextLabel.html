@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AUILinkedTextLabel Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AUILinkedTextLabel" class="dashAnchor"></a>
+    <a title="AUILinkedTextLabel Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">adidasUI Docs</a></p>
+        <p class="header-right"><a href="https://github.com/adimobile/adimobile.github.io"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">adidasUI Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AUILinkedTextLabel Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AUIAlertAction.html">AUIAlertAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIAlertController.html">AUIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIButton.html">AUIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUICoverAnimationContainerView.html">AUICoverAnimationContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIEmailInputView.html">AUIEmailInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUILinkedTextLabel.html">AUILinkedTextLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUILoaderView.html">AUILoaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIPasswordInputView.html">AUIPasswordInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUISocialView.html">AUISocialView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIStepItem.html">AUIStepItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIStepProgressControl.html">AUIStepProgressControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUITextInputView.html">AUITextInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIToggleView.html">AUIToggleView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AMCSocialNetworks.html">AMCSocialNetworks</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIAlertActionStyle.html">AUIAlertActionStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIButtonType.html">AUIButtonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUICoverAnimationDirection.html">AUICoverAnimationDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIInputViewValidationState.html">AUIInputViewValidationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUITextInputRightIconDisableMode.html">AUITextInputRightIconDisableMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIToggleViewValidationState.html">AUIToggleViewValidationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIVerificationMode.html">AUIVerificationMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ValidationError.html">ValidationError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIControlState.html">UIControlState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AUISocialViewDelegate.html">AUISocialViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUITextInputValidator.html">AUITextInputValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUITextInputViewDelegate.html">AUITextInputViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUIToggleViewDelegate.html">AUIToggleViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AUILinkedTextLabel</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                </div>
+              </div>
+            <p>AUILinkedTextLabel inherits from UILabel and allows to set a text or a rage clickable and perform an action.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabelcFT5coderCSo7NSCoder_GSqS0__"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabelcFT5coderCSo7NSCoder_GSqS0__">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUILinkedTextLabel7enabledSb"></a>
+                    <a name="//apple_ref/swift/Property/enabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUILinkedTextLabel7enabledSb">enabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIView"></a>
+                <a name="//apple_ref/swift/Section/UIView" class="dashAnchor"></a>
+                <a href="#/UIView">
+                  <h3 class="section-name">UIView</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel12sizeThatFitsFVSC6CGSizeS1_"></a>
+                    <a name="//apple_ref/swift/Method/sizeThatFits(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel12sizeThatFitsFVSC6CGSizeS1_">sizeThatFits(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel20intrinsicContentSizeFT_VSC6CGSize"></a>
+                    <a name="//apple_ref/swift/Method/intrinsicContentSize()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel20intrinsicContentSizeFT_VSC6CGSize">intrinsicContentSize()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UILabel"></a>
+                <a name="//apple_ref/swift/Section/UILabel" class="dashAnchor"></a>
+                <a href="#/UILabel">
+                  <h3 class="section-name">UILabel</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel17textRectForBoundsFTVSC6CGRect22limitedToNumberOfLinesSi_S1_"></a>
+                    <a name="//apple_ref/swift/Method/textRectForBounds(_:limitedToNumberOfLines:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel17textRectForBoundsFTVSC6CGRect22limitedToNumberOfLinesSi_S1_">textRectForBounds(_:limitedToNumberOfLines:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIResponder"></a>
+                <a name="//apple_ref/swift/Section/UIResponder" class="dashAnchor"></a>
+                <a href="#/UIResponder">
+                  <h3 class="section-name">UIResponder</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel23canBecomeFirstResponderFT_Sb"></a>
+                    <a name="//apple_ref/swift/Method/canBecomeFirstResponder()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel23canBecomeFirstResponderFT_Sb">canBecomeFirstResponder()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel12touchesBeganFTGVs3SetCSo7UITouch_9withEventGSqCSo7UIEvent__T_"></a>
+                    <a name="//apple_ref/swift/Method/touchesBegan(_:withEvent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel12touchesBeganFTGVs3SetCSo7UITouch_9withEventGSqCSo7UIEvent__T_">touchesBegan(_:withEvent:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel12touchesMovedFTGVs3SetCSo7UITouch_9withEventGSqCSo7UIEvent__T_"></a>
+                    <a name="//apple_ref/swift/Method/touchesMoved(_:withEvent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel12touchesMovedFTGVs3SetCSo7UITouch_9withEventGSqCSo7UIEvent__T_">touchesMoved(_:withEvent:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel12touchesEndedFTGVs3SetCSo7UITouch_9withEventGSqCSo7UIEvent__T_"></a>
+                    <a name="//apple_ref/swift/Method/touchesEnded(_:withEvent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel12touchesEndedFTGVs3SetCSo7UITouch_9withEventGSqCSo7UIEvent__T_">touchesEnded(_:withEvent:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel16touchesCancelledFTGSqGVs3SetCSo7UITouch__9withEventGSqCSo7UIEvent__T_"></a>
+                    <a name="//apple_ref/swift/Method/touchesCancelled(_:withEvent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel16touchesCancelledFTGSqGVs3SetCSo7UITouch__9withEventGSqCSo7UIEvent__T_">touchesCancelled(_:withEvent:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Links%20support"></a>
+                <a name="//apple_ref/swift/Section/Links support" class="dashAnchor"></a>
+                <a href="#/Links%20support">
+                  <h3 class="section-name">Links support</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel16setClickableTextFTSS15withActionBlockFT18textCheckingResultCSo20NSTextCheckingResult_T__T_"></a>
+                    <a name="//apple_ref/swift/Method/setClickableText(_:withActionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel16setClickableTextFTSS15withActionBlockFT18textCheckingResultCSo20NSTextCheckingResult_T__T_">setClickableText(_:withActionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is used to set the clickable text for the label, the delegate will be called when the label will be pressed.</p>
+
+<p>-parameter aClickableString:
+containing the text that will become clickable. Cannot be nil.</p>
+
+<p>-parameter aDelegate: AUILinkedTextLabelActionBlock to be called when linked label will be pressed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setClickableText</span><span class="p">(</span><span class="nv">aClickableString</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withActionBlock</span> <span class="nv">anActionBlock</span><span class="p">:</span> <span class="kt">AUILinkedTextLabelActionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUILinkedTextLabel17setClickableRangeFTGVs5RangeVVSS13CharacterView5Index_15withActionBlockFT18textCheckingResultCSo20NSTextCheckingResult_T__T_"></a>
+                    <a name="//apple_ref/swift/Method/setClickableRange(_:withActionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUILinkedTextLabel17setClickableRangeFTGVs5RangeVVSS13CharacterView5Index_15withActionBlockFT18textCheckingResultCSo20NSTextCheckingResult_T__T_">setClickableRange(_:withActionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is used to set a clickable range for the label, the delegate will be called when the label will be pressed.</p>
+
+<p>-parameter aRange:
+containing the label range that will become clickable.</p>
+
+<p>-parameter anActionBlock:
+AUILinkedTextLabelActionBlock that will be invoked when linked label will be pressed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setClickableRange</span><span class="p">(</span><span class="nv">aRange</span><span class="p">:</span> <span class="kt">Range</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">.</span><span class="kt">Index</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">withActionBlock</span> <span class="nv">anActionBlock</span><span class="p">:</span> <span class="kt">AUILinkedTextLabelActionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2016 adidas mobile team. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
