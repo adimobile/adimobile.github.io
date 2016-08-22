@@ -83,13 +83,19 @@
                 <a href="../Classes/AMCResponse.html">AMCResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/AMCSubscribeUserRequest.html">AMCSubscribeUserRequest</a>
+                <a href="../Classes/AMCSession.html">AMCSession</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C11ConnectCore24AMCSubscribeUserResponse">AMCSubscribeUserResponse</a>
+                <a href="../Classes/AMCSubscribeEmailRequest.html">AMCSubscribeEmailRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore25AMCSubscribeEmailResponse">AMCSubscribeEmailResponse</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AMCToken.html">AMCToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCTokenData.html">AMCTokenData</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AMCUpdateUserRequest.html">AMCUpdateUserRequest</a>
@@ -139,7 +145,10 @@
                 <a href="../Enums/AMCSessionStatus.html">AMCSessionStatus</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/AMCSubscribeUserConditionCode.html">AMCSubscribeUserConditionCode</a>
+                <a href="../Enums/AMCSubscribeEmailConditionCode.html">AMCSubscribeEmailConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCTokenKind.html">AMCTokenKind</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/AMCUpdateUserConditionCode.html">AMCUpdateUserConditionCode</a>
@@ -741,9 +750,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore10getSessionFT6sharedSb_GSqCS_8AMCToken_"></a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore10getSessionFT6sharedSb_GSqCS_10AMCSession_"></a>
                     <a name="//apple_ref/swift/Method/getSession(shared:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10getSessionFT6sharedSb_GSqCS_8AMCToken_">getSession(shared:)</a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10getSessionFT6sharedSb_GSqCS_10AMCSession_">getSession(shared:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -764,7 +773,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getSession</span><span class="p">(</span><span class="n">shared</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AMCToken.html">AMCToken</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getSession</span><span class="p">(</span><span class="n">shared</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AMCSession.html">AMCSession</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -892,10 +901,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/TODO:%20Next%20methods%20are%20used%20only%20for%20shared%20credentials.%20To%20be%20remade%20later"></a>
-                <a name="//apple_ref/swift/Section/TODO: Next methods are used only for shared credentials. To be remade later" class="dashAnchor"></a>
-                <a href="#/TODO:%20Next%20methods%20are%20used%20only%20for%20shared%20credentials.%20To%20be%20remade%20later">
-                  <h3 class="section-name">TODO: Next methods are used only for shared credentials. To be remade later</h3>
+                <a name="/TODO:%20Next%20methods%20are%20used%20only%20for%20shared%20session.%20To%20be%20remade%20later"></a>
+                <a name="//apple_ref/swift/Section/TODO: Next methods are used only for shared session. To be remade later" class="dashAnchor"></a>
+                <a href="#/TODO:%20Next%20methods%20are%20used%20only%20for%20shared%20session.%20To%20be%20remade%20later">
+                  <h3 class="section-name">TODO: Next methods are used only for shared session. To be remade later</h3>
                 </a>
               </div>
               <ul>
@@ -929,9 +938,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore23deleteSharedCredentialsFT_T_"></a>
-                    <a name="//apple_ref/swift/Method/deleteSharedCredentials()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore23deleteSharedCredentialsFT_T_">deleteSharedCredentials()</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore19deleteSharedSessionFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/deleteSharedSession()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore19deleteSharedSessionFT_T_">deleteSharedSession()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -939,14 +948,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Remove current shared Ping Federate credentials.</p>
+                        <p>Remove current shared Ping Federate session.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteSharedCredentials</span><span class="p">()</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteSharedSession</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -956,9 +965,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore13subscribeUserFCS_23AMCSubscribeUserRequestT_"></a>
-                    <a name="//apple_ref/swift/Method/subscribeUser(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore13subscribeUserFCS_23AMCSubscribeUserRequestT_">subscribeUser(_:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore14subscribeEmailFCS_24AMCSubscribeEmailRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/subscribeEmail(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14subscribeEmailFCS_24AMCSubscribeEmailRequestT_">subscribeEmail(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -974,7 +983,7 @@ It will create a new account with those subscriptions for non existing users.</p
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">subscribeUser</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCSubscribeUserRequest.html">AMCSubscribeUserRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">subscribeEmail</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCSubscribeEmailRequest.html">AMCSubscribeEmailRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -990,7 +999,7 @@ It will create a new account with those subscriptions for non existing users.</p
                               </td>
                               <td>
                                 <div>
-                                  <p>The subscribe user request.</p>
+                                  <p>The subscribe email request.</p>
 
                                 </div>
                               </td>

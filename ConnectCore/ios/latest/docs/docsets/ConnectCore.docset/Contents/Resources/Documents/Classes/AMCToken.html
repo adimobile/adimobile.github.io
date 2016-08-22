@@ -83,13 +83,19 @@
                 <a href="../Classes/AMCResponse.html">AMCResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/AMCSubscribeUserRequest.html">AMCSubscribeUserRequest</a>
+                <a href="../Classes/AMCSession.html">AMCSession</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C11ConnectCore24AMCSubscribeUserResponse">AMCSubscribeUserResponse</a>
+                <a href="../Classes/AMCSubscribeEmailRequest.html">AMCSubscribeEmailRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore25AMCSubscribeEmailResponse">AMCSubscribeEmailResponse</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AMCToken.html">AMCToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCTokenData.html">AMCTokenData</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AMCUpdateUserRequest.html">AMCUpdateUserRequest</a>
@@ -139,7 +145,10 @@
                 <a href="../Enums/AMCSessionStatus.html">AMCSessionStatus</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/AMCSubscribeUserConditionCode.html">AMCSubscribeUserConditionCode</a>
+                <a href="../Enums/AMCSubscribeEmailConditionCode.html">AMCSubscribeEmailConditionCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AMCTokenKind.html">AMCTokenKind</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/AMCUpdateUserConditionCode.html">AMCUpdateUserConditionCode</a>
@@ -186,9 +195,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore8AMCTokencFT5emailSS8fullNameGSqSS_17facebookAvatarUriGSqSS_11accessTokenSS12refreshTokenSS9expiresInSi11expiresDateCSo6NSDate9tokenTypeSS_S0_"></a>
-                    <a name="//apple_ref/swift/Method/init(email:fullName:facebookAvatarUri:accessToken:refreshToken:expiresIn:expiresDate:tokenType:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore8AMCTokencFT5emailSS8fullNameGSqSS_17facebookAvatarUriGSqSS_11accessTokenSS12refreshTokenSS9expiresInSi11expiresDateCSo6NSDate9tokenTypeSS_S0_">init(email:fullName:facebookAvatarUri:accessToken:refreshToken:expiresIn:expiresDate:tokenType:)</a>
+                    <a name="/s:FC11ConnectCore8AMCTokencFT9tokenKindOS_12AMCTokenKind11accessTokenSS12refreshTokenSS9expiresInSi11expiresDateCSo6NSDate9tokenTypeSS_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(tokenKind:accessToken:refreshToken:expiresIn:expiresDate:tokenType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore8AMCTokencFT9tokenKindOS_12AMCTokenKind11accessTokenSS12refreshTokenSS9expiresInSi11expiresDateCSo6NSDate9tokenTypeSS_S0_">init(tokenKind:accessToken:refreshToken:expiresIn:expiresDate:tokenType:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -240,9 +249,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC11ConnectCore8AMCToken5emailSS"></a>
-                    <a name="//apple_ref/swift/Property/email" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC11ConnectCore8AMCToken5emailSS">email</a>
+                    <a name="/s:vC11ConnectCore8AMCToken9tokenKindOS_12AMCTokenKind"></a>
+                    <a name="//apple_ref/swift/Property/tokenKind" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore8AMCToken9tokenKindOS_12AMCTokenKind">tokenKind</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -250,68 +259,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Email related to current token.</p>
+                        <p>Token kind</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:vC11ConnectCore8AMCToken8fullNameGSqSS_"></a>
-                    <a name="//apple_ref/swift/Property/fullName" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC11ConnectCore8AMCToken8fullNameGSqSS_">fullName</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Full name of the user related to current token.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fullName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:vC11ConnectCore8AMCToken17facebookAvatarUriGSqSS_"></a>
-                    <a name="//apple_ref/swift/Property/facebookAvatarUri" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC11ConnectCore8AMCToken17facebookAvatarUriGSqSS_">facebookAvatarUri</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AMCToken</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">tokenKind</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCTokenKind.html">AMCTokenKind</a></span></code></pre>
 
                         </div>
                       </div>
@@ -449,6 +404,44 @@
                           <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AMCToken</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore8AMCToken19obtainDataFromTokenFT_GSqCS_12AMCTokenData_"></a>
+                    <a name="//apple_ref/swift/Method/obtainDataFromToken()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore8AMCToken19obtainDataFromTokenFT_GSqCS_12AMCTokenData_">obtainDataFromToken()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the info inside of the JSON Web Token. In case the token is not a JSON Web Token, it will return nil.</p>
+
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    A new AMCTokenData instance with the info inside the JSON Web Token. It will return nil in case it&rsquo;s not a JSON Web Token
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">obtainDataFromToken</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AMCTokenData.html">AMCTokenData</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A new AMCTokenData instance with the info inside the JSON Web Token. It will return nil in case it&rsquo;s not a JSON Web Token</p>
+
                       </div>
                     </section>
                   </div>
