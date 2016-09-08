@@ -1,0 +1,16 @@
+com.adidas.connectcore
+com.adidas.connectcore.action
+com.adidas.connectcore.actions
+com.adidas.connectcore.adapter
+com.adidas.connectcore.auth
+com.adidas.connectcore.cloud
+com.adidas.connectcore.cloud.request
+com.adidas.connectcore.cloud.response
+com.adidas.connectcore.configuration
+com.adidas.connectcore.pingfederate
+com.adidas.connectcore.push
+com.adidas.connectcore.scv
+com.adidas.connectcore.scv.action
+com.adidas.connectcore.scv.model
+com.adidas.connectcore.scv.request
+com.adidas.connectcore.scv.response
