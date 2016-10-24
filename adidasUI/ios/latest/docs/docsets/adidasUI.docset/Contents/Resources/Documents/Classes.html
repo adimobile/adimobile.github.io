@@ -79,6 +79,9 @@
                 <a href="Classes/AUITextInputView.html">AUITextInputView</a>
               </li>
               <li class="nav-group-task">
+                <a href="Classes/AUIToastMessageView.html">AUIToastMessageView</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes/AUIToggleView.html">AUIToggleView</a>
               </li>
             </ul>
@@ -226,7 +229,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUIAlertAction</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCopying</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIAlertAction</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCopying</span></code></pre>
 
                         </div>
                       </div>
@@ -277,7 +280,7 @@ alertController.addAction(destroyAction)</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUIAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
 
                         </div>
                       </div>
@@ -339,44 +342,6 @@ alertController.addAction(destroyAction)</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C8adidasUI13AUIToggleView"></a>
-                    <a name="//apple_ref/swift/Class/AUIToggleView" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C8adidasUI13AUIToggleView">AUIToggleView</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>You use the AUIToggleView class to create and manage the On/Off buttons used, for example, YES/NO questions. These objects are known as toggle.</p>
-
-<p>Overview</p>
-
-<p>The AUIToggleView class declares a property and a method to control its on/off state. The control has three validation states, see AUIToggleViewValidationState. By tapping on left option button  the control changes its validation state to .Wrong and informs its delegate about state shanges. By tapping on right option button the control changes its validation state to .Valid.</p>
-
-<p>You can customize the appearance of the toggle view by setting a title, left option title, right option title and changing the color used to highlight error message and error line indicator.</p>
-
-                        <a href="Classes/AUIToggleView.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">@IBDesignable</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUIToggleView</span><span class="p">:</span> <span class="kt"><a href="Classes/AUIInputView.html">AUIInputView</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:C8adidasUI12AUIInputView"></a>
                     <a name="//apple_ref/swift/Class/AUIInputView" class="dashAnchor"></a>
                     <a class="token" href="#/s:C8adidasUI12AUIInputView">AUIInputView</a>
@@ -419,7 +384,7 @@ alertController.addAction(destroyAction)</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUILinkedTextLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
 
                         </div>
                       </div>
@@ -534,7 +499,7 @@ Listing 1 shows how to configure an popover with a mesage</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUIMessagePopoverController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIMessagePopoverController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
 
                         </div>
                       </div>
@@ -566,7 +531,7 @@ Listing 1 shows how to configure an popover with a mesage</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUIStepItem</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIStepItem</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -594,7 +559,7 @@ Listing 1 shows how to configure an popover with a mesage</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AUIStepProgressControl</span><span class="p">:</span> <span class="kt">UIControl</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIStepProgressControl</span><span class="p">:</span> <span class="kt">UIControl</span></code></pre>
 
                         </div>
                       </div>
@@ -675,11 +640,73 @@ Listing 1 shows how to configure an popover with a mesage</p>
                 </li>
               </ul>
             </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C8adidasUI13AUIToggleView"></a>
+                    <a name="//apple_ref/swift/Class/AUIToggleView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C8adidasUI13AUIToggleView">AUIToggleView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>You use the AUIToggleView class to create and manage the On/Off buttons used, for example, YES/NO questions. These objects are known as toggle.</p>
+
+<p>Overview</p>
+
+<p>The AUIToggleView class declares a property and a method to control its on/off state. The control has three validation states, see AUIToggleViewValidationState. By tapping on left option button  the control changes its validation state to .Wrong and informs its delegate about state shanges. By tapping on right option button the control changes its validation state to .Valid.</p>
+
+<p>You can customize the appearance of the toggle view by setting a title, left option title, right option title and changing the color used to highlight error message and error line indicator.</p>
+
+                        <a href="Classes/AUIToggleView.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBDesignable</span> <span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIToggleView</span><span class="p">:</span> <span class="kt"><a href="Classes/AUIInputView.html">AUIInputView</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C8adidasUI19AUIToastMessageView"></a>
+                    <a name="//apple_ref/swift/Class/AUIToastMessageView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C8adidasUI19AUIToastMessageView">AUIToastMessageView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Classes/AUIToastMessageView.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </section>
         </section>
         <section id="footer">
           <p>Copyright © 2016 adidas mobile team. All rights reserved.</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
