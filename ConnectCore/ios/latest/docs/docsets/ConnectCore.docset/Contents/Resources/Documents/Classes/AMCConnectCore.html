@@ -106,6 +106,23 @@
               <li class="nav-group-task">
                 <a href="../Classes/AMCUser.html">AMCUser</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability.html">Reachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability/NetworkStatus.html">– NetworkStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v11ConnectCore34AMCReachabilityChangedNotificationVCSo14NSNotification4Name">AMCReachabilityChangedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v11ConnectCore31ReachabilityChangedNotificationVCSo14NSNotification4Name">ReachabilityChangedNotification</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -162,13 +179,8 @@
               <li class="nav-group-task">
                 <a href="../Enums/AMCUpdateUserConditionCode.html">AMCUpdateUserConditionCode</a>
               </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Functions.html">Functions</a>
-            <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:F11ConnectCoreoi1lFTCSo6NSDateS0__Sb">&lt;(_:_:)</a>
+                <a href="../Enums/ReachabilityError.html">ReachabilityError</a>
               </li>
             </ul>
           </li>
@@ -218,6 +230,33 @@
           <section class="section task-group-section">
             <div class="task-group">
               <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore14AMCConnectCore19isServicesReachableSb"></a>
+                    <a name="//apple_ref/swift/Property/isServicesReachable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore14AMCConnectCore19isServicesReachableSb">isServicesReachable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCConnectCore</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -364,7 +403,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">service</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCService.html">AMCService</a></span><span class="p">,</span> <span class="nv">environment</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCEnvironment.html">AMCEnvironment</a></span><span class="p">,</span> <span class="nv">countryOfSite</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">legalEntity</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">clientIdSecret</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">keychainLocalAccessGroupName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">accessTokenManager</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCAccessTokenManager.html">AMCAccessTokenManager</a></span> <span class="o">=</span> <span class="o">.</span><span class="kt">JwtToken</span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">service</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCService.html">AMCService</a></span><span class="p">,</span> <span class="nv">environment</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCEnvironment.html">AMCEnvironment</a></span><span class="p">,</span> <span class="nv">countryOfSite</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">legalEntity</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">clientIdSecret</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">keychainLocalAccessGroupName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">accessTokenManager</span><span class="p">:</span> <span class="kt"><a href="../Enums/AMCAccessTokenManager.html">AMCAccessTokenManager</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">jwtToken</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -490,9 +529,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore5loginFT7requestCS_15AMCLoginRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/login(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore5loginFT7requestCS_15AMCLoginRequest_T_">login(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore5loginFCS_15AMCLoginRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/login(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore5loginFCS_15AMCLoginRequestT_">login(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -507,7 +546,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCLoginRequest.html">AMCLoginRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCLoginRequest.html">AMCLoginRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -537,9 +576,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore12refreshTokenFzT7requestCS_22AMCRefreshTokenRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/refreshToken(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore12refreshTokenFzT7requestCS_22AMCRefreshTokenRequest_T_">refreshToken(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore12refreshTokenFzCS_22AMCRefreshTokenRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/refreshToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore12refreshTokenFzCS_22AMCRefreshTokenRequestT_">refreshToken(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -554,7 +593,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">refreshToken</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCRefreshTokenRequest.html">AMCRefreshTokenRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">refreshToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCRefreshTokenRequest.html">AMCRefreshTokenRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -584,9 +623,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore10createUserFT7requestCS_20AMCCreateUserRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/createUser(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10createUserFT7requestCS_20AMCCreateUserRequest_T_">createUser(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore10createUserFCS_20AMCCreateUserRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/createUser(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10createUserFCS_20AMCCreateUserRequestT_">createUser(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -601,7 +640,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCCreateUserRequest.html">AMCCreateUserRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCCreateUserRequest.html">AMCCreateUserRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -631,9 +670,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore7getUserFT7requestCS_17AMCGetUserRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/getUser(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore7getUserFT7requestCS_17AMCGetUserRequest_T_">getUser(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore7getUserFCS_17AMCGetUserRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/getUser(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore7getUserFCS_17AMCGetUserRequestT_">getUser(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -649,7 +688,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getUser</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCGetUserRequest.html">AMCGetUserRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getUser</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCGetUserRequest.html">AMCGetUserRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -679,9 +718,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore14isUserExistingFT7requestCS_24AMCIsUserExistingRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/isUserExisting(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14isUserExistingFT7requestCS_24AMCIsUserExistingRequest_T_">isUserExisting(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore14isUserExistingFCS_24AMCIsUserExistingRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/isUserExisting(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14isUserExistingFCS_24AMCIsUserExistingRequestT_">isUserExisting(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -697,7 +736,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isUserExisting</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCIsUserExistingRequest.html">AMCIsUserExistingRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isUserExisting</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCIsUserExistingRequest.html">AMCIsUserExistingRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -727,9 +766,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore19handleResetPasswordFT7requestCS_29AMCHandleResetPasswordRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/handleResetPassword(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore19handleResetPasswordFT7requestCS_29AMCHandleResetPasswordRequest_T_">handleResetPassword(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore19handleResetPasswordFCS_29AMCHandleResetPasswordRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/handleResetPassword(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore19handleResetPasswordFCS_29AMCHandleResetPasswordRequestT_">handleResetPassword(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -745,7 +784,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">handleResetPassword</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCHandleResetPasswordRequest.html">AMCHandleResetPasswordRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">handleResetPassword</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCHandleResetPasswordRequest.html">AMCHandleResetPasswordRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -775,9 +814,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore10updateUserFT7requestCS_20AMCUpdateUserRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/updateUser(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10updateUserFT7requestCS_20AMCUpdateUserRequest_T_">updateUser(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore10updateUserFCS_20AMCUpdateUserRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/updateUser(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore10updateUserFCS_20AMCUpdateUserRequestT_">updateUser(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -792,7 +831,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateUser</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCUpdateUserRequest.html">AMCUpdateUserRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateUser</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCUpdateUserRequest.html">AMCUpdateUserRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -845,7 +884,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getSession</span><span class="p">(</span><span class="n">shared</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AMCSession.html">AMCSession</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getSession</span><span class="p">(</span><span class="nv">shared</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AMCSession.html">AMCSession</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -988,9 +1027,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore14subscribeEmailFT7requestCS_24AMCSubscribeEmailRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/subscribeEmail(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14subscribeEmailFT7requestCS_24AMCSubscribeEmailRequest_T_">subscribeEmail(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore14subscribeEmailFCS_24AMCSubscribeEmailRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/subscribeEmail(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore14subscribeEmailFCS_24AMCSubscribeEmailRequestT_">subscribeEmail(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1006,7 +1045,7 @@ It will create a new account with those subscriptions for non existing users.</p
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">subscribeEmail</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCSubscribeEmailRequest.html">AMCSubscribeEmailRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">subscribeEmail</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCSubscribeEmailRequest.html">AMCSubscribeEmailRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -1036,9 +1075,9 @@ It will create a new account with those subscriptions for non existing users.</p
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC11ConnectCore14AMCConnectCore11getConsentsFT7requestCS_18AMCConsentsRequest_T_"></a>
-                    <a name="//apple_ref/swift/Method/getConsents(request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore11getConsentsFT7requestCS_18AMCConsentsRequest_T_">getConsents(request:)</a>
+                    <a name="/s:FC11ConnectCore14AMCConnectCore11getConsentsFCS_18AMCConsentsRequestT_"></a>
+                    <a name="//apple_ref/swift/Method/getConsents(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore14AMCConnectCore11getConsentsFCS_18AMCConsentsRequestT_">getConsents(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1053,7 +1092,7 @@ It will create a new account with those subscriptions for non existing users.</p
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getConsents</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCConsentsRequest.html">AMCConsentsRequest</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getConsents</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCConsentsRequest.html">AMCConsentsRequest</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -1086,7 +1125,7 @@ It will create a new account with those subscriptions for non existing users.</p
         </section>
         <section id="footer">
           <p>Copyright © 2016 adidas mobile team. All rights reserved.</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
