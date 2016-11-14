@@ -31,10 +31,16 @@
             <a href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="Classes/AMCAddress.html">AMCAddress</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes/AMCConnectCore.html">AMCConnectCore</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/AMCConsentsRequest.html">AMCConsentsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/AMCConsentsRequestObjC.html">AMCConsentsRequestObjC</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/AMCConsentsResponse.html">AMCConsentsResponse</a>
@@ -43,10 +49,16 @@
                 <a href="Classes/AMCCreateUserRequest.html">AMCCreateUserRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="Classes/AMCCreateUserRequestObjC.html">AMCCreateUserRequestObjC</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes/AMCCreateUserResponse.html">AMCCreateUserResponse</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/AMCGetUserRequest.html">AMCGetUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/AMCGetUserRequestObjC.html">AMCGetUserRequestObjC</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/AMCGetUserResponse.html">AMCGetUserResponse</a>
@@ -55,10 +67,16 @@
                 <a href="Classes/AMCHandleResetPasswordRequest.html">AMCHandleResetPasswordRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="Classes/AMCHandleResetPasswordRequestObjC.html">AMCHandleResetPasswordRequestObjC</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes.html#/s:C11ConnectCore30AMCHandleResetPasswordResponse">AMCHandleResetPasswordResponse</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/AMCIsUserExistingRequest.html">AMCIsUserExistingRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/AMCIsUserExistingRequestObjC.html">AMCIsUserExistingRequestObjC</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/AMCIsUserExistingResponse.html">AMCIsUserExistingResponse</a>
@@ -67,10 +85,22 @@
                 <a href="Classes/AMCLoginRequest.html">AMCLoginRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="Classes/AMCLoginRequestObjC.html">AMCLoginRequestObjC</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes.html#/s:C11ConnectCore16AMCLoginResponse">AMCLoginResponse</a>
               </li>
               <li class="nav-group-task">
+                <a href="Classes/AMCPhone.html">AMCPhone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/AMCPhone/AMCPhoneType.html">– AMCPhoneType</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes/AMCRefreshTokenRequest.html">AMCRefreshTokenRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/AMCRefreshTokenRequestObjC.html">AMCRefreshTokenRequestObjC</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes.html#/s:C11ConnectCore23AMCRefreshTokenResponse">AMCRefreshTokenResponse</a>
@@ -88,6 +118,9 @@
                 <a href="Classes/AMCSubscribeEmailRequest.html">AMCSubscribeEmailRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="Classes/AMCSubscribeEmailRequestObjC.html">AMCSubscribeEmailRequestObjC</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes.html#/s:C11ConnectCore25AMCSubscribeEmailResponse">AMCSubscribeEmailResponse</a>
               </li>
               <li class="nav-group-task">
@@ -98,6 +131,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/AMCUpdateUserRequest.html">AMCUpdateUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/AMCUpdateUserRequestObjC.html">AMCUpdateUserRequestObjC</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes.html#/s:C11ConnectCore21AMCUpdateUserResponse">AMCUpdateUserResponse</a>
@@ -198,15 +234,6 @@
             <a href="Structs.html">Structs</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Structs/AMCAddress.html">AMCAddress</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/AMCPhone.html">AMCPhone</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/AMCPhone/AMCPhoneType.html">– AMCPhoneType</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Structs/AMCSocialApplication.html">AMCSocialApplication</a>
               </li>
             </ul>
@@ -267,7 +294,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AMCRequest</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AMCRequest</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span><span class="kt"><a href="Classes/AMCResponse.html">AMCResponse</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -315,7 +342,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Request that creates a new adidas user in SCV</p>
+                        <p>Request that creates a new adidas user in SCV
+After user creation you will be logged in and user data will be available</p>
 
                         <a href="Classes/AMCCreateUserRequest.html" class="slightly-smaller">See more</a>
                       </div>
@@ -323,7 +351,36 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCCreateUserRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCCreateUserRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes/AMCCreateUserResponse.html">AMCCreateUserResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore24AMCCreateUserRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCCreateUserRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore24AMCCreateUserRequestObjC">AMCCreateUserRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request that creates a new adidas user in SCV
+After user creation you will be logged in and user data will be available</p>
+
+                        <a href="Classes/AMCCreateUserRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCCreateUserRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -491,7 +548,36 @@ It will create a new account with those subscriptions for non existing users in 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCSubscribeEmailRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCSubscribeEmailRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes.html#/s:C11ConnectCore25AMCSubscribeEmailResponse">AMCSubscribeEmailResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore28AMCSubscribeEmailRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCSubscribeEmailRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore28AMCSubscribeEmailRequestObjC">AMCSubscribeEmailRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request will enhance current&rsquo;s user account by subscribing the user to newsletter/s of interest.
+It will create a new account with those subscriptions for non existing users in SCV.</p>
+
+                        <a href="Classes/AMCSubscribeEmailRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCSubscribeEmailRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -523,7 +609,35 @@ It will create a new account with those subscriptions for non existing users in 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCIsUserExistingRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCIsUserExistingRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes/AMCIsUserExistingResponse.html">AMCIsUserExistingResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore28AMCIsUserExistingRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCIsUserExistingRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore28AMCIsUserExistingRequestObjC">AMCIsUserExistingRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request that checks the email within SCV(Adidas)</p>
+
+                        <a href="Classes/AMCIsUserExistingRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCIsUserExistingRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -555,7 +669,35 @@ It will create a new account with those subscriptions for non existing users in 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCHandleResetPasswordRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCHandleResetPasswordRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes.html#/s:C11ConnectCore30AMCHandleResetPasswordResponse">AMCHandleResetPasswordResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore33AMCHandleResetPasswordRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCHandleResetPasswordRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore33AMCHandleResetPasswordRequestObjC">AMCHandleResetPasswordRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Model that generates a request for password reset.</p>
+
+                        <a href="Classes/AMCHandleResetPasswordRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCHandleResetPasswordRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -656,6 +798,66 @@ It will create a new account with those subscriptions for non existing users in 
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:C11ConnectCore8AMCPhone"></a>
+                    <a name="//apple_ref/swift/Class/AMCPhone" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore8AMCPhone">AMCPhone</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Model containing all the properties needed in a phone number.</p>
+
+                        <a href="Classes/AMCPhone.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AMCPhone</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore10AMCAddress"></a>
+                    <a name="//apple_ref/swift/Class/AMCAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore10AMCAddress">AMCAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Model containing all the properties needed in an address.</p>
+
+                        <a href="Classes/AMCAddress.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AMCAddress</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:C11ConnectCore21AMCCreateUserResponse"></a>
                     <a name="//apple_ref/swift/Class/AMCCreateUserResponse" class="dashAnchor"></a>
                     <a class="token" href="#/s:C11ConnectCore21AMCCreateUserResponse">AMCCreateUserResponse</a>
@@ -729,7 +931,35 @@ It will create a new account with those subscriptions for non existing users in 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCLoginRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCLoginRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes.html#/s:C11ConnectCore16AMCLoginResponse">AMCLoginResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore19AMCLoginRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCLoginRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore19AMCLoginRequestObjC">AMCLoginRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>AMCLoginRequest request contains all the properties needed to perform a login request.</p>
+
+                        <a href="Classes/AMCLoginRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCLoginRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -817,7 +1047,8 @@ It will create a new account with those subscriptions for non existing users in 
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Request that updates an existing adidas user in SCV</p>
+                        <p>Request that updates an existing adidas user in SCV
+After user creation you will be logged in and user data will be available</p>
 
                         <a href="Classes/AMCUpdateUserRequest.html" class="slightly-smaller">See more</a>
                       </div>
@@ -825,7 +1056,36 @@ It will create a new account with those subscriptions for non existing users in 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCUpdateUserRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCUpdateUserRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes.html#/s:C11ConnectCore21AMCUpdateUserResponse">AMCUpdateUserResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore24AMCUpdateUserRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCUpdateUserRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore24AMCUpdateUserRequestObjC">AMCUpdateUserRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request that updates an existing adidas user in SCV
+After user creation you will be logged in and user data will be available</p>
+
+                        <a href="Classes/AMCUpdateUserRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCUpdateUserRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -857,7 +1117,35 @@ It will create a new account with those subscriptions for non existing users in 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCConsentsRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCConsentsRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes/AMCConsentsResponse.html">AMCConsentsResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore22AMCConsentsRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCConsentsRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore22AMCConsentsRequestObjC">AMCConsentsRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request gets Consents data from SCV.</p>
+
+                        <a href="Classes/AMCConsentsRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCConsentsRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -889,7 +1177,35 @@ It will create a new account with those subscriptions for non existing users in 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCGetUserRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCGetUserRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes/AMCGetUserResponse.html">AMCGetUserResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore21AMCGetUserRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCGetUserRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore21AMCGetUserRequestObjC">AMCGetUserRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>GetUser request contains all the properties needed to perform a lookup request.</p>
+
+                        <a href="Classes/AMCGetUserRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCGetUserRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -976,7 +1292,35 @@ It will create a new account with those subscriptions for non existing users in 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCRefreshTokenRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCRefreshTokenRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="Classes.html#/s:C11ConnectCore23AMCRefreshTokenResponse">AMCRefreshTokenResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:C11ConnectCore26AMCRefreshTokenRequestObjC"></a>
+                    <a name="//apple_ref/swift/Class/AMCRefreshTokenRequestObjC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:C11ConnectCore26AMCRefreshTokenRequestObjC">AMCRefreshTokenRequestObjC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Model that generates a request for refreshing tokens.</p>
+
+                        <a href="Classes/AMCRefreshTokenRequestObjC.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCRefreshTokenRequestObjC</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
