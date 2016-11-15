@@ -37,70 +37,70 @@
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 122,
+      "line": 121,
       "symbol": "AMCConnectCore.accessTokenManager",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 231,
+      "line": 230,
       "symbol": "AMCConnectCore.loginObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 262,
+      "line": 261,
       "symbol": "AMCConnectCore.refreshTokenObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 282,
+      "line": 281,
       "symbol": "AMCConnectCore.createUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 301,
+      "line": 300,
       "symbol": "AMCConnectCore.getUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 320,
+      "line": 319,
       "symbol": "AMCConnectCore.isUserExistingObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 339,
+      "line": 338,
       "symbol": "AMCConnectCore.handleResetPasswordObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 360,
+      "line": 359,
       "symbol": "AMCConnectCore.updateUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 436,
+      "line": 435,
       "symbol": "AMCConnectCore.subscribeEmailObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 457,
+      "line": 456,
       "symbol": "AMCConnectCore.getConsentsObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -436,14 +436,35 @@
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 154,
+      "line": 86,
+      "symbol": "AMCUpdateUserRequest.AMCChangePassword",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 94,
+      "symbol": "AMCUpdateUserRequest.AMCChangePassword.init(oldPassword:newPassword:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 99,
+      "symbol": "AMCUpdateUserRequest.AMCChangePassword.init(newPassword:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 177,
       "symbol": "AMCUpdateUserRequest.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gomezged/Documents/adidas/Projects/mobility-iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 182,
+      "line": 205,
       "symbol": "AMCUpdateUserRequestObjC.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
