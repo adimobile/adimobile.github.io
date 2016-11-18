@@ -100,28 +100,28 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Modal Overlay Container/AMCModalOverlayContainer.swift",
-      "line": 143,
+      "line": 280,
       "symbol": "AMCModalOverlayContainer.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Modal Overlay Container/AMCModalOverlayContainer.swift",
-      "line": 155,
+      "line": 292,
       "symbol": "AMCModalOverlayContainer.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Modal Overlay Container/AMCModalOverlayContainer.swift",
-      "line": 164,
+      "line": 301,
       "symbol": "AMCModalOverlayContainer.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Modal Overlay Container/AMCModalOverlayContainer.swift",
-      "line": 170,
+      "line": 307,
       "symbol": "AMCModalOverlayContainer.preferredStatusBarStyle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -205,7 +205,7 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterEmbeddedController.swift",
-      "line": 112,
+      "line": 119,
       "symbol": "AMCConnectNewsletterEmbeddedController.popoverControllerDidCompleteRegistration(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -240,56 +240,56 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterPopoverController.swift",
-      "line": 265,
+      "line": 302,
       "symbol": "AMCConnectNewsletterPopoverControllerDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterPopoverController.swift",
-      "line": 267,
+      "line": 304,
       "symbol": "AMCConnectNewsletterPopoverControllerDelegate.popoverControllerDidCompleteRegistration(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterPopoverController.swift",
-      "line": 272,
+      "line": 309,
       "symbol": "AMCConnectNewsletterPopoverController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterPopoverController.swift",
-      "line": 290,
+      "line": 327,
       "symbol": "AMCConnectNewsletterPopoverController.showSubcribtionCTA",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterPopoverController.swift",
-      "line": 292,
+      "line": 329,
       "symbol": "AMCConnectNewsletterPopoverController.init(config:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterPopoverController.swift",
-      "line": 345,
+      "line": 381,
       "symbol": "AMCConnectNewsletterPopoverController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterPopoverController.swift",
-      "line": 349,
+      "line": 385,
       "symbol": "AMCConnectNewsletterPopoverController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectNewsletterUI_Publish_Release_iOS/ConnectUI/ConnectNewsletterUI/AMCConnectNewsletterPopoverController.swift",
-      "line": 507,
+      "line": 570,
       "symbol": "AMCConnectNewsletterPopoverController.gestureRecognizerShouldBegin(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
