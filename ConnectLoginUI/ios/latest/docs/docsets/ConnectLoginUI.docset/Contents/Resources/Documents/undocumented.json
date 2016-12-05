@@ -8,6 +8,20 @@
       "warning": "undocumented"
     },
     {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/Authentication Flow/Authentication Flows/AMCFlowProtocolType.swift",
+      "line": 17,
+      "symbol": "AMCFlowProtocolType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/Authentication Flow/Authentication Flows/Full Account Authentication Flow/AMCFullFlowProtocolType.swift",
+      "line": 11,
+      "symbol": "AMCFullFlowProtocolType",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
       "line": null,
       "symbol": "AMCLoginViewController",
@@ -51,23 +65,16 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 97,
+      "line": 99,
       "symbol": "AMCLoginViewController.crossApplicationLoginControllerDidSelectAccount()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 101,
+      "line": 103,
       "symbol": "AMCLoginViewController.crossApplicationLoginControllerDidSwitchAccount()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCOfflineTastMessageView.swift",
-      "line": 26,
-      "symbol": "AUIToastMessageView.slowConnectionToastMessageView(translator:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
