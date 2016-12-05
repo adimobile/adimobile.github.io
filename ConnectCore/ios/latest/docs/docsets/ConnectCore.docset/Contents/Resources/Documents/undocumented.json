@@ -232,6 +232,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/AMCLoyalty.swift",
+      "line": 30,
+      "symbol": "AMCLoyalty.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/AMCSocialApplication.swift",
       "line": 16,
       "symbol": "AMCSocialSource.facebook",
@@ -338,7 +345,7 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCCreateUserRequest.swift",
-      "line": 94,
+      "line": 97,
       "symbol": "AMCCreateUserRequest.init(email:password:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -415,14 +422,14 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
-      "line": 117,
+      "line": 126,
       "symbol": "AMCSubscribeEmailRequest.init(email:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
-      "line": 152,
+      "line": 161,
       "symbol": "AMCSubscribeEmailRequestObjC.init(email:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -457,14 +464,14 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 177,
+      "line": 180,
       "symbol": "AMCUpdateUserRequest.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 205,
+      "line": 208,
       "symbol": "AMCUpdateUserRequestObjC.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
