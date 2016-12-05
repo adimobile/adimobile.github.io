@@ -53,6 +53,9 @@
                 <a href="../Classes/AUIInputView.html">AUIInputView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/AUIInteractiveTransitionContext.html">AUIInteractiveTransitionContext</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/AUILinkedTextLabel.html">AUILinkedTextLabel</a>
               </li>
               <li class="nav-group-task">
@@ -84,6 +87,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AUIToggleView.html">AUIToggleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIValueTransition.html">AUIValueTransition</a>
               </li>
             </ul>
           </li>
@@ -131,6 +137,9 @@
           <li class="nav-group-name">
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/NSLayoutConstraint.html">NSLayoutConstraint</a>
+              </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIControlState.html">UIControlState</a>
               </li>
@@ -185,14 +194,16 @@
 
                 </div>
               </div>
-            <p>A AUIMessagePopoverController object displays an popover message to the user. After configuring the popover controller present it using the <a href="">presentViewController:animated:completion:</a> method.</p>
+            <p>A AUIMessagePopoverController object displays an popover message to the user.
+After configuring the popover controller present it using the <a href="">presentViewController:animated:completion:</a> method.</p>
 
-<p>### Overview
-Listing 1 shows how to configure an popover with a mesage</p>
+<p><a href='#overview' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='overview'>Overview</h3></p>
+
+<p>Listing 1 shows how to configure an popover with a mesage</p>
 
 <p><strong>Listing 1</strong>Configuring and presenting an popover
- &ldquo;`
- let popup = AUIMessagePopoverController(message: <q>SIGN UP SUCCESSFUL</q>)</p>
+&ldquo;`
+let popup = AUIMessagePopoverController(message: <q>SIGN UP SUCCESSFUL</q>)</p>
 
 <p>self.presentViewController(popup, animated: true, completion: nil)</p>
 
@@ -246,7 +257,8 @@ Listing 1 shows how to configure an popover with a mesage</p>
                       <div class="abstract">
                         <p>Descriptive text that provides more details about the reason for the popover.</p>
 
-<p>The message string is displayed below the icon. Use this string to provide additional context about the reason for the popover.</p>
+<p>The message string is displayed below the icon. Use this string to provide additional context about the reason
+for the popover.</p>
 
                       </div>
                       <div class="declaration">
@@ -436,7 +448,7 @@ Listing 1 shows how to configure an popover with a mesage</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>message</em>
+                                <em>aMessage</em>
                                 </code>
                               </td>
                               <td>
@@ -490,7 +502,7 @@ Listing 1 shows how to configure an popover with a mesage</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>message</em>
+                                <em>aMessage</em>
                                 </code>
                               </td>
                               <td>
@@ -503,7 +515,7 @@ Listing 1 shows how to configure an popover with a mesage</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>icon</em>
+                                <em>aIcon</em>
                                 </code>
                               </td>
                               <td>

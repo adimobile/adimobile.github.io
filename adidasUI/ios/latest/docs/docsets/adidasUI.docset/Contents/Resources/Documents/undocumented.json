@@ -16,42 +16,42 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 79,
+      "line": 89,
       "symbol": "AUIAlertAction.copy(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 257,
+      "line": 272,
       "symbol": "AUIAlertController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 299,
+      "line": 317,
       "symbol": "AUIAlertController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 320,
+      "line": 338,
       "symbol": "AUIAlertController.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 326,
+      "line": 344,
       "symbol": "AUIAlertController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 343,
+      "line": 362,
       "symbol": "AUIAlertController.actions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -114,21 +114,21 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 221,
+      "line": 252,
       "symbol": "AUIButton.isHighlighted",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 227,
+      "line": 258,
       "symbol": "AUIButton.isEnabled",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 358,
+      "line": 400,
       "symbol": "AUIButton.prepareForInterfaceBuilder()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -247,28 +247,28 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 114,
+      "line": 135,
       "symbol": "AUIDOBInputView.minimumAge",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 135,
+      "line": 156,
       "symbol": "AUIDOBInputView.dateFormat",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 156,
+      "line": 177,
       "symbol": "AUIDOBInputView.separatorType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 180,
+      "line": 201,
       "symbol": "AUIDOBInputView.textInputDelegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -299,6 +299,13 @@
       "line": 24,
       "symbol": "AUIEmailInputView.localizedDomainList",
       "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
+      "line": null,
+      "symbol": "AUIInputView",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -387,324 +394,296 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 75,
+      "line": 81,
       "symbol": "AUIInputValidator",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 76,
+      "line": 82,
       "symbol": "AUIInputValidator.validate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 80,
+      "line": 86,
       "symbol": "AUIInputViewDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 81,
+      "line": 87,
       "symbol": "AUIInputViewDelegate.inputViewWillBeginEditing(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 82,
+      "line": 88,
       "symbol": "AUIInputViewDelegate.inputViewDidBeginEditing(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 83,
+      "line": 89,
       "symbol": "AUIInputViewDelegate.inputViewWillEndEditing(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 84,
+      "line": 90,
       "symbol": "AUIInputViewDelegate.inputViewDidEndEditing(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 85,
+      "line": 91,
       "symbol": "AUIInputViewDelegate.inputViewIntrinsicContentSizeIsChanging(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 86,
+      "line": 92,
       "symbol": "AUIInputViewDelegate.inputViewRightIconTapped(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 89,
+      "line": 95,
       "symbol": "AUIInputViewValidationState",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 90,
+      "line": 96,
       "symbol": "AUIInputViewValidationState.initial",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 91,
+      "line": 97,
       "symbol": "AUIInputViewValidationState.wrong",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 92,
+      "line": 98,
       "symbol": "AUIInputViewValidationState.valid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 95,
+      "line": 101,
       "symbol": "AUIInputRightIconDisableMode",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 96,
+      "line": 102,
       "symbol": "AUIInputRightIconDisableMode.never",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 97,
+      "line": 103,
       "symbol": "AUIInputRightIconDisableMode.whileValidationWrong",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 100,
+      "line": 106,
       "symbol": "AUIVerificationMode",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 101,
+      "line": 107,
       "symbol": "AUIVerificationMode.automatic",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 102,
+      "line": 108,
       "symbol": "AUIVerificationMode.manually",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 105,
+      "line": 111,
       "symbol": "AUIInputView",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 135,
+      "line": 142,
       "symbol": "AUIInputView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 139,
+      "line": 146,
       "symbol": "AUIInputView.intrinsicContentSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 169,
+      "line": 178,
       "symbol": "AUIInputView.isFirstResponder",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 175,
+      "line": 184,
       "symbol": "AUIInputView.canResignFirstResponder",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 181,
+      "line": 190,
       "symbol": "AUIInputView.resignFirstResponder()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 187,
+      "line": 196,
       "symbol": "AUIInputView.canBecomeFirstResponder",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 193,
+      "line": 202,
       "symbol": "AUIInputView.becomeFirstResponder()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 300,
+      "line": 309,
       "symbol": "AUIInputView.addValidator(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 304,
+      "line": 313,
       "symbol": "AUIInputView.removeValidator(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 314,
+      "line": 323,
       "symbol": "AUIInputView.validators",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 322,
+      "line": 332,
       "symbol": "AUIInputView._verified",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 323,
+      "line": 333,
       "symbol": "AUIInputView.verified",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 354,
+      "line": 364,
       "symbol": "AUIInputView.rightIconDisableMode",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 355,
+      "line": 365,
       "symbol": "AUIInputView.rightIcon",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 366,
+      "line": 376,
       "symbol": "AUIInputView.rightIconHighligted",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
-      "line": 392,
+      "line": 402,
       "symbol": "AUIInputView.errorMessage",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIInputView/AUIInputView.swift",
+      "line": 1014,
+      "symbol": "AUIInputView.hitTest(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 33,
+      "line": 37,
       "symbol": "AUILinkedTextLabel.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 48,
+      "line": 54,
       "symbol": "AUILinkedTextLabel.isEnabled",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 55,
+      "line": 61,
       "symbol": "AUILinkedTextLabel.sizeThatFits(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 67,
+      "line": 75,
       "symbol": "AUILinkedTextLabel.intrinsicContentSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 72,
-      "symbol": "AUILinkedTextLabel.textRect(forBounds:limitedToNumberOfLines:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 82,
+      "line": 80,
       "symbol": "AUILinkedTextLabel.canBecomeFirstResponder",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 86,
-      "symbol": "AUILinkedTextLabel.touchesBegan(_:with:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 100,
-      "symbol": "AUILinkedTextLabel.touchesMoved(_:with:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 113,
-      "symbol": "AUILinkedTextLabel.touchesEnded(_:with:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILinkedTextLabel/AUILinkedTextLabel.swift",
-      "line": 124,
-      "symbol": "AUILinkedTextLabel.touchesCancelled(_:with:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -751,28 +730,28 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILoaderView/AUILoaderView.swift",
-      "line": 67,
+      "line": 98,
       "symbol": "AUILoaderView.didMoveToWindow()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILoaderView/AUILoaderView.swift",
-      "line": 73,
+      "line": 104,
       "symbol": "AUILoaderView.startAnimating()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILoaderView/AUILoaderView.swift",
-      "line": 82,
+      "line": 113,
       "symbol": "AUILoaderView.stopAnimating()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUILoaderView/AUILoaderView.swift",
-      "line": 92,
+      "line": 123,
       "symbol": "AUILoaderView.isAnimating()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -786,49 +765,49 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIMessagePopoverController/AUIMessagePopoverController.swift",
-      "line": 144,
+      "line": 143,
       "symbol": "AUIMessagePopoverController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIMessagePopoverController/AUIMessagePopoverController.swift",
-      "line": 160,
+      "line": 159,
       "symbol": "AUIMessagePopoverController.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIMessagePopoverController/AUIMessagePopoverController.swift",
-      "line": 165,
+      "line": 164,
       "symbol": "AUIMessagePopoverController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIMessagePopoverController/AUIMessagePopoverController.swift",
-      "line": 317,
+      "line": 324,
       "symbol": "AUIMessagePopoverController.animationController(forPresented:presenting:source:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIMessagePopoverController/AUIMessagePopoverController.swift",
-      "line": 322,
+      "line": 331,
       "symbol": "AUIMessagePopoverController.animationController(forDismissed:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIMessagePopoverController/AUIMessagePopoverController.swift",
-      "line": 330,
+      "line": 339,
       "symbol": "AUIMessagePopoverController.transitionDuration(using:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIMessagePopoverController/AUIMessagePopoverController.swift",
-      "line": 334,
+      "line": 343,
       "symbol": "AUIMessagePopoverController.animateTransition(using:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1101,56 +1080,56 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUISocialLoginView/AUISocialView.swift",
-      "line": 49,
+      "line": 50,
       "symbol": "AUISocialView.socialNetworks",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUISocialLoginView/AUISocialView.swift",
-      "line": 56,
+      "line": 57,
       "symbol": "AUISocialView.setSocialNetworkConnected(_:connected:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUISocialLoginView/AUISocialView.swift",
-      "line": 63,
+      "line": 64,
       "symbol": "AUISocialView.delegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUISocialLoginView/AUISocialView.swift",
-      "line": 72,
+      "line": 73,
       "symbol": "AUISocialView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUISocialLoginView/AUISocialView.swift",
-      "line": 81,
+      "line": 82,
       "symbol": "AUISocialView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIStepProgressControl/AUIStepProgressControl.swift",
-      "line": 80,
+      "line": 77,
       "symbol": "AUIStepProgressControl.setCurrentStep(_:animated:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIStepProgressControl/AUIStepProgressControl.swift",
-      "line": 137,
+      "line": 132,
       "symbol": "AUIStepProgressControl.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIStepProgressControl/AUIStepProgressControl.swift",
-      "line": 141,
+      "line": 136,
       "symbol": "AUIStepProgressControl.awakeFromNib()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1178,63 +1157,63 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 22,
+      "line": 17,
       "symbol": "AUITextInputView",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 29,
+      "line": 26,
       "symbol": "AUITextInputView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 41,
+      "line": 38,
       "symbol": "AUITextInputView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 65,
+      "line": 62,
       "symbol": "AUITextInputView.textInputDelegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 128,
+      "line": 124,
       "symbol": "AUITextInputView.textFieldShouldBeginEditing(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 134,
+      "line": 130,
       "symbol": "AUITextInputView.textFieldDidBeginEditing(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 139,
+      "line": 135,
       "symbol": "AUITextInputView.textField(_:shouldChangeCharactersIn:replacementString:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 161,
+      "line": 159,
       "symbol": "AUITextInputView.textFieldShouldEndEditing(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUITextInputView/AUITextInputView.swift",
-      "line": 167,
+      "line": 165,
       "symbol": "AUITextInputView.textFieldDidEndEditing(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1255,56 +1234,56 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToastMessageView/AUIToastMessageView.swift",
-      "line": 44,
+      "line": 45,
       "symbol": "AUIToastMessageView.rightActionButtonTitle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToastMessageView/AUIToastMessageView.swift",
-      "line": 51,
+      "line": 53,
       "symbol": "AUIToastMessageView.messageText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToastMessageView/AUIToastMessageView.swift",
-      "line": 66,
+      "line": 74,
       "symbol": "AUIToastMessageView.actionHandler",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToastMessageView/AUIToastMessageView.swift",
-      "line": 68,
+      "line": 76,
       "symbol": "AUIToastMessageView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToastMessageView/AUIToastMessageView.swift",
-      "line": 73,
+      "line": 81,
       "symbol": "AUIToastMessageView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToastMessageView/AUIToastMessageView.swift",
-      "line": 78,
+      "line": 86,
       "symbol": "AUIToastMessageView.intrinsicContentSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToastMessageView/AUIToastMessageView.swift",
-      "line": 84,
+      "line": 92,
       "symbol": "AUIToastMessageView.showAsCurrentInputAccessoryView()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToastMessageView/AUIToastMessageView.swift",
-      "line": 91,
+      "line": 99,
       "symbol": "AUIToastMessageView.removeFromCurrentInputAccessoryView()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1374,112 +1353,126 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
-      "line": 43,
+      "line": 34,
+      "symbol": "AUICoverAnimationContainerView.cover",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
+      "line": 45,
       "symbol": "AUICoverAnimationContainerView.isUserInteractionEnabled",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
-      "line": 49,
+      "line": 51,
       "symbol": "AUICoverAnimationContainerView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
-      "line": 55,
+      "line": 57,
       "symbol": "AUICoverAnimationContainerView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
-      "line": 62,
+      "line": 64,
       "symbol": "AUICoverAnimationContainerView.init(contentView:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
-      "line": 66,
+      "line": 68,
       "symbol": "AUICoverAnimationContainerView.init(contentView:contentEdgeInsets:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
-      "line": 249,
-      "symbol": "AUICoverAnimationContainerView.setCover(_:animated:direction:complitionBlock:)",
+      "line": 263,
+      "symbol": "AUICoverAnimationContainerView.setCover(_:animated:direction:completionBlock:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
-      "line": 332,
+      "line": 341,
+      "symbol": "AUICoverAnimationContainerView.interactiveTransaction(cover:direction:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUICoverAnimationContainerView.swift",
+      "line": 428,
       "symbol": "AUICoverAnimationContainerView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "AUIToggleViewDelegate.toggleViewValidationStateDidChange(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 34,
+      "line": 40,
       "symbol": "AUIToggleView.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 39,
+      "line": 45,
       "symbol": "AUIToggleView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 51,
+      "line": 57,
       "symbol": "AUIToggleView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 82,
+      "line": 103,
       "symbol": "AUIToggleView.prepareForInterfaceBuilder()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 110,
+      "line": 130,
       "symbol": "AUIToggleView.selectLeftOption()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 114,
+      "line": 134,
       "symbol": "AUIToggleView.selectRightOption()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 118,
+      "line": 138,
       "symbol": "AUIToggleView.reset()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIToggleView/AUIToggleView.swift",
-      "line": 135,
+      "line": 155,
       "symbol": "AUIToggleView.intrinsicContentSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -1587,6 +1580,125 @@
       "line": 99,
       "symbol": "UIFont.neighbourhoodProBoldFontOfSize(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/Extensions/NSLayoutConstraint+Constructor.swift",
+      "line": 12,
+      "symbol": "NSLayoutConstraint.constraints(withVisualFormat:optionalMetrics:views:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/Extensions/NSLayoutConstraint+Constructor.swift",
+      "line": 20,
+      "symbol": "NSLayoutConstraint.equalWidth(item:toItem:multiplier:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 11,
+      "symbol": "AUIInteractiveTransitionContext",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 13,
+      "symbol": "AUIInteractiveTransitionContext.percentComplete",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 14,
+      "symbol": "AUIInteractiveTransitionContext.didFinishInteractiveTransition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 15,
+      "symbol": "AUIInteractiveTransitionContext.valueTransitions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 16,
+      "symbol": "AUIInteractiveTransitionContext.relatedContexts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 17,
+      "symbol": "AUIInteractiveTransitionContext.animate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 19,
+      "symbol": "AUIInteractiveTransitionContext.init(valueTransitions:relatedContexts:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 32,
+      "symbol": "AUIInteractiveTransitionContext.update(progress:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 52,
+      "symbol": "AUIInteractiveTransitionContext.cancelInteractiveTransition()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIInteractiveTransitionContext.swift",
+      "line": 69,
+      "symbol": "AUIInteractiveTransitionContext.finishInteractiveTransition()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIValueTransition.swift",
+      "line": 12,
+      "symbol": "AUIValueTransition",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIValueTransition.swift",
+      "line": 14,
+      "symbol": "AUIValueTransition.fromValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIValueTransition.swift",
+      "line": 15,
+      "symbol": "AUIValueTransition.toValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIValueTransition.swift",
+      "line": 16,
+      "symbol": "AUIValueTransition.update",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/InteractiveTransition/AUIValueTransition.swift",
+      "line": 18,
+      "symbol": "AUIValueTransition.init(fromValue:toValue:update:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],

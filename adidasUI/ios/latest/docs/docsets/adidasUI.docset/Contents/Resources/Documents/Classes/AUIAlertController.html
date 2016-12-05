@@ -53,6 +53,9 @@
                 <a href="../Classes/AUIInputView.html">AUIInputView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/AUIInteractiveTransitionContext.html">AUIInteractiveTransitionContext</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/AUILinkedTextLabel.html">AUILinkedTextLabel</a>
               </li>
               <li class="nav-group-task">
@@ -84,6 +87,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AUIToggleView.html">AUIToggleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIValueTransition.html">AUIValueTransition</a>
               </li>
             </ul>
           </li>
@@ -131,6 +137,9 @@
           <li class="nav-group-name">
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/NSLayoutConstraint.html">NSLayoutConstraint</a>
+              </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIControlState.html">UIControlState</a>
               </li>
@@ -185,11 +194,18 @@
 
                 </div>
               </div>
-            <p>A AUIAlertController object displays an alert message to the user. After configuring the alert controller with the actions and style you want, present it using the <a href="">presentViewController:animated:completion:</a> method.</p>
+            <p>A AUIAlertController object displays an alert message to the user. 
+After configuring the alert controller with the actions and style you want, 
+present it using the <a href="">presentViewController:animated:completion:</a> method.</p>
 
 <p><a href='#overview' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='overview'>Overview</h3></p>
 
-<p>In addition to displaying a message to a user, you can associate actions with your alert controller to give the user a way to respond. For each action you add using the <a href="">addAction:</a> method, the alert controller configures a button with the action details. When the user taps that action, the alert controller executes the block you provided when creating the action object. Listing 1 shows how to configure an alert with a single action.</p>
+<p>In addition to displaying a message to a user, you can associate actions 
+with your alert controller to give the user a way to respond. 
+For each action you add using the <a href="">addAction:</a> method, the alert controller 
+configures a button with the action details. When the user taps that action, 
+the alert controller executes the block you provided when creating the action object. 
+Listing 1 shows how to configure an alert with a single action.</p>
 
 <p><strong>Listing 1</strong>Configuring and presenting an alert
 &ldquo;`
@@ -258,7 +274,8 @@ alertController.addAction(destroyAction)</p>
                       <div class="abstract">
                         <p>The title of the alert.</p>
 
-<p>The title string is displayed prominently in the alert. You should use this string to get the user’s attention and communicate the reason for displaying the alert.</p>
+<p>The title string is displayed prominently in the alert. 
+You should use this string to get the user’s attention and communicate the reason for displaying the alert.</p>
 
                       </div>
                       <div class="declaration">
@@ -287,7 +304,9 @@ alertController.addAction(destroyAction)</p>
                       <div class="abstract">
                         <p>Descriptive text that provides more details about the reason for the alert.</p>
 
-<p>The message string is displayed below the title string and is less prominent. Use this string to provide additional context about the reason for the alert or about the actions that the user might take.</p>
+<p>The message string is displayed below the title string and is less prominent. 
+Use this string to provide additional context about the reason 
+for the alert or about the actions that the user might take.</p>
 
                       </div>
                       <div class="declaration">
@@ -593,7 +612,7 @@ alertController.addAction(destroyAction)</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>title</em>
+                                <em>aTitle</em>
                                 </code>
                               </td>
                               <td>
@@ -606,7 +625,7 @@ alertController.addAction(destroyAction)</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>message</em>
+                                <em>aMessage</em>
                                 </code>
                               </td>
                               <td>
@@ -649,7 +668,10 @@ alertController.addAction(destroyAction)</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController5titleGSqSS_">title</a></span> <span class="nv">aTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController7messageGSqSS_">message</a></span> <span class="nv">aMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController4iconGSqCSo7UIImage_">icon</a></span> <span class="nv">aIcon</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController10subMessageGSqSS_">subMessage</a></span> <span class="nv">aSubMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController5titleGSqSS_">title</a></span> <span class="nv">aTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+                         <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController7messageGSqSS_">message</a></span> <span class="nv">aMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+                         <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController4iconGSqCSo7UIImage_">icon</a></span> <span class="nv">aIcon</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span>
+                         <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController10subMessageGSqSS_">subMessage</a></span> <span class="nv">aSubMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -660,7 +682,7 @@ alertController.addAction(destroyAction)</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>title</em>
+                                <em>aTitle</em>
                                 </code>
                               </td>
                               <td>
@@ -673,7 +695,7 @@ alertController.addAction(destroyAction)</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>message</em>
+                                <em>aMessage</em>
                                 </code>
                               </td>
                               <td>
@@ -686,7 +708,7 @@ alertController.addAction(destroyAction)</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>icon</em>
+                                <em>aIcon</em>
                                 </code>
                               </td>
                               <td>
@@ -699,7 +721,7 @@ alertController.addAction(destroyAction)</p>
                             <tr>
                               <td>
                                 <code>
-                                <em>subMessage</em>
+                                <em>aSubMessage</em>
                                 </code>
                               </td>
                               <td>
