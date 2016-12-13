@@ -1115,21 +1115,21 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIStepProgressControl/AUIStepProgressControl.swift",
-      "line": 77,
+      "line": 79,
       "symbol": "AUIStepProgressControl.setCurrentStep(_:animated:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIStepProgressControl/AUIStepProgressControl.swift",
-      "line": 132,
+      "line": 152,
       "symbol": "AUIStepProgressControl.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIStepProgressControl/AUIStepProgressControl.swift",
-      "line": 136,
+      "line": 156,
       "symbol": "AUIStepProgressControl.awakeFromNib()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

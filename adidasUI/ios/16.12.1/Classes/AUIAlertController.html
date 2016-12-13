@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AUIAlertController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AUIAlertController" class="dashAnchor"></a>
+    <a title="AUIAlertController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">adidasUI Docs</a></p>
+        <p class="header-right"><a href="https://github.com/adimobile/adimobile.github.io"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">adidasUI Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AUIAlertController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AUIAlertAction.html">AUIAlertAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIAlertController.html">AUIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIButton.html">AUIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUICoverAnimationContainerView.html">AUICoverAnimationContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIDOBInputView.html">AUIDOBInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIEmailInputView.html">AUIEmailInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIInputView.html">AUIInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIInteractiveTransitionContext.html">AUIInteractiveTransitionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUILinkedTextLabel.html">AUILinkedTextLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUILoaderView.html">AUILoaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIMessagePopoverController.html">AUIMessagePopoverController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUINameInputView.html">AUINameInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIPasswordInputView.html">AUIPasswordInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUISocialView.html">AUISocialView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIStepItem.html">AUIStepItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIStepProgressControl.html">AUIStepProgressControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUITextInputView.html">AUITextInputView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIToastMessageView.html">AUIToastMessageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIToggleView.html">AUIToggleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AUIValueTransition.html">AUIValueTransition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AMCSocialNetwork.html">AMCSocialNetwork</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIAlertActionStyle.html">AUIAlertActionStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIButtonType.html">AUIButtonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUICoverAnimationDirection.html">AUICoverAnimationDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIDOBDateFormat.html">AUIDOBDateFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIDOBSeparatorType.html">AUIDOBSeparatorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIInputRightIconDisableMode.html">AUIInputRightIconDisableMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIInputViewValidationState.html">AUIInputViewValidationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIMessageVisibility.html">AUIMessageVisibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUINameFormat.html">AUINameFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AUIVerificationMode.html">AUIVerificationMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ValidationError.html">ValidationError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/NSLayoutConstraint.html">NSLayoutConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIControlState.html">UIControlState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AUIDOBInputViewDelegate.html">AUIDOBInputViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUIInputValidator.html">AUIInputValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUIInputViewDelegate.html">AUIInputViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUINameInputViewDelegate.html">AUINameInputViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUISocialViewDelegate.html">AUISocialViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUITextInputViewDelegate.html">AUITextInputViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AUIToggleViewDelegate.html">AUIToggleViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AUIReason.html">AUIReason</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AUIAlertController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                </div>
+              </div>
+            <p>A AUIAlertController object displays an alert message to the user. 
+After configuring the alert controller with the actions and style you want, 
+present it using the <a href="">presentViewController:animated:completion:</a> method.</p>
+
+<p><a href='#overview' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='overview'>Overview</h3></p>
+
+<p>In addition to displaying a message to a user, you can associate actions 
+with your alert controller to give the user a way to respond. 
+For each action you add using the <a href="">addAction:</a> method, the alert controller 
+configures a button with the action details. When the user taps that action, 
+the alert controller executes the block you provided when creating the action object. 
+Listing 1 shows how to configure an alert with a single action.</p>
+
+<p><strong>Listing 1</strong>Configuring and presenting an alert
+&ldquo;`
+let alertController = AUIAlertController(title: <q>Title</q>, message: <q>Message</q>)</p>
+
+<p>let cancelAction = AUIAlertAction(title: <q>Cancel</q>, style: .Primary) { (action) in
+   println(action)
+}
+alertController.addAction(cancelAction)</p>
+
+<p>let destroyAction = AUIAlertAction(title: <q>Destroy</q>, style: .Secondary) { (action) in
+   println(action)
+}
+alertController.addAction(destroyAction)</p>
+
+<p>self.presentViewController(alertController, animated: true) {
+// &hellip;
+}
+&rdquo;`</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController4iconGSqCSo7UIImage_"></a>
+                    <a name="//apple_ref/swift/Property/icon" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController4iconGSqCSo7UIImage_">icon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The icon of the alert.</p>
+
+<p>The icon image is displayed prominently in the alert. You should use this icon to get the user’s attention.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">icon</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController5titleGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/title" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController5titleGSqSS_">title</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The title of the alert.</p>
+
+<p>The title string is displayed prominently in the alert. 
+You should use this string to get the user’s attention and communicate the reason for displaying the alert.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">override</span> <span class="k">var</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController7messageGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/message" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController7messageGSqSS_">message</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Descriptive text that provides more details about the reason for the alert.</p>
+
+<p>The message string is displayed below the title string and is less prominent. 
+Use this string to provide additional context about the reason 
+for the alert or about the actions that the user might take.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController10subMessageGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/subMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController10subMessageGSqSS_">subMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The subMessage of the alert.</p>
+
+<p>The subMessage string is displayed below of the main message.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">subMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController18primaryButtonColorGSqCSo7UIColor_"></a>
+                    <a name="//apple_ref/swift/Property/primaryButtonColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController18primaryButtonColorGSqCSo7UIColor_">primaryButtonColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The primaryButtonColor of primary button.</p>
+
+<p>The primaryButtonColor color of primary button background.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">primaryButtonColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController22primaryButtonTextColorGSqCSo7UIColor_"></a>
+                    <a name="//apple_ref/swift/Property/primaryButtonTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController22primaryButtonTextColorGSqCSo7UIColor_">primaryButtonTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The primaryButtonTextColor of primary button.</p>
+
+<p>The primaryButtonTextColor color of primary button text.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">primaryButtonTextColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController20secondaryButtonColorGSqCSo7UIColor_"></a>
+                    <a name="//apple_ref/swift/Property/secondaryButtonColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController20secondaryButtonColorGSqCSo7UIColor_">secondaryButtonColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The secondaryButtonColor of secondary button.</p>
+
+<p>The secondaryButtonColor color of secondary button background.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">secondaryButtonColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController24secondaryButtonTextColorGSqCSo7UIColor_"></a>
+                    <a name="//apple_ref/swift/Property/secondaryButtonTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController24secondaryButtonTextColorGSqCSo7UIColor_">secondaryButtonTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The secondaryButtonTextColor of secondary button.</p>
+
+<p>The secondaryButtonTextColor color of secondary button text.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">secondaryButtonTextColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController9textColorGSqCSo7UIColor_"></a>
+                    <a name="//apple_ref/swift/Property/textColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController9textColorGSqCSo7UIColor_">textColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The textColor of the alert.</p>
+
+<p>The textColor color of all alert labels.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">textColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController14backgroundViewGSqCSo6UIView_"></a>
+                    <a name="//apple_ref/swift/Property/backgroundView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController14backgroundViewGSqCSo6UIView_">backgroundView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The backgroundView of the alert.</p>
+
+<p>The backgroundView default is nil. The &lsquo;backgroundView&rsquo; will be added as a subview behind all other views.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">backgroundView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController13iconTintColorGSqCSo7UIColor_"></a>
+                    <a name="//apple_ref/swift/Property/iconTintColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController13iconTintColorGSqCSo7UIColor_">iconTintColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The iconTintColor of the alert.</p>
+
+<p>The iconTintColor color of alert icon. The iconTintColor default is nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">iconTintColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUIAlertControllercFT5coderCSo7NSCoder_GSqS0__"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUIAlertControllercFT5coderCSo7NSCoder_GSqS0__">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUIAlertControllercFT5titleGSqSS_7messageGSqSS__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(title:message:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUIAlertControllercFT5titleGSqSS_7messageGSqSS__S0_">init(title:message:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates and returns a view controller for displaying an alert to the user.</p>
+
+<p>An initialized alert controller object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController5titleGSqSS_">title</a></span> <span class="nv">aTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController7messageGSqSS_">message</a></span> <span class="nv">aMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>aTitle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The title of the alert. Use this string to get the user’s attention and communicate the reason for the alert.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>aMessage</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Descriptive text that provides additional details about the reason for the alert.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An initialized alert controller object.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUIAlertControllercFT5titleGSqSS_7messageGSqSS_4iconGSqCSo7UIImage_10subMessageGSqSS__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(title:message:icon:subMessage:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUIAlertControllercFT5titleGSqSS_7messageGSqSS_4iconGSqCSo7UIImage_10subMessageGSqSS__S0_">init(title:message:icon:subMessage:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates and returns a view controller for displaying an alert to the user.</p>
+
+<p>An initialized alert controller object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController5titleGSqSS_">title</a></span> <span class="nv">aTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+                         <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController7messageGSqSS_">message</a></span> <span class="nv">aMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+                         <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController4iconGSqCSo7UIImage_">icon</a></span> <span class="nv">aIcon</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span>
+                         <span class="n"><a href="../Classes/AUIAlertController.html#/s:vC8adidasUI18AUIAlertController10subMessageGSqSS_">subMessage</a></span> <span class="nv">aSubMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>aTitle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The title of the alert. Use this string to get the user’s attention and communicate the reason for the alert.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>aMessage</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Descriptive text that provides additional details about the reason for the alert.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>aIcon</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The icon image is displayed prominently in the alert. You should use this icon to get the user’s attention.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>aSubMessage</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Text string is displayed below of the main message.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An initialized alert controller object.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUIAlertController11viewDidLoadFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUIAlertController11viewDidLoadFT_T_">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUIAlertController14viewWillAppearFSbT_"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUIAlertController14viewWillAppearFSbT_">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUIAlertController17viewWillDisappearFSbT_"></a>
+                    <a name="//apple_ref/swift/Method/viewWillDisappear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUIAlertController17viewWillDisappearFSbT_">viewWillDisappear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI18AUIAlertController9addActionFCS_14AUIAlertActionT_"></a>
+                    <a name="//apple_ref/swift/Method/addAction(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI18AUIAlertController9addActionFCS_14AUIAlertActionT_">addAction(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an action object to the alert.</p>
+
+<p>If your alert has multiple actions, the order in which you add those actions determines their order in the resulting alert.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">addAction</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kt"><a href="../Classes/AUIAlertAction.html">AUIAlertAction</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The action object to display as part of the alert. Actions are displayed as buttons in the alert. The action object provides the button text and the action to be performed when that button is tapped.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC8adidasUI18AUIAlertController7actionsGSaCS_14AUIAlertAction_"></a>
+                    <a name="//apple_ref/swift/Property/actions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC8adidasUI18AUIAlertController7actionsGSaCS_14AUIAlertAction_">actions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">AUIAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2016 adidas mobile team. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
