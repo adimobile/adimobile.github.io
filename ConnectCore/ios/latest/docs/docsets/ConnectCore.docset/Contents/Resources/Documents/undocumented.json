@@ -44,63 +44,63 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 230,
+      "line": 228,
       "symbol": "AMCConnectCore.loginObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 261,
+      "line": 258,
       "symbol": "AMCConnectCore.refreshTokenObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 281,
+      "line": 276,
       "symbol": "AMCConnectCore.createUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 300,
+      "line": 293,
       "symbol": "AMCConnectCore.getUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 319,
+      "line": 310,
       "symbol": "AMCConnectCore.isUserExistingObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 338,
+      "line": 327,
       "symbol": "AMCConnectCore.handleResetPasswordObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 359,
+      "line": 346,
       "symbol": "AMCConnectCore.updateUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 435,
+      "line": 420,
       "symbol": "AMCConnectCore.subscribeEmailObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 456,
+      "line": 439,
       "symbol": "AMCConnectCore.getConsentsObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -198,14 +198,14 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/PFApi/Models/Requests/AMCLoginRequest.swift",
-      "line": 44,
+      "line": 28,
       "symbol": "AMCLoginRequest.init(username:password:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/PFApi/Models/Requests/AMCRefreshTokenRequest.swift",
-      "line": 56,
+      "line": 40,
       "symbol": "AMCRefreshTokenRequestObjC.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -310,28 +310,28 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCConsentsRequest.swift",
-      "line": 62,
+      "line": 46,
       "symbol": "AMCConsentsRequest.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCConsentsRequest.swift",
-      "line": 68,
+      "line": 52,
       "symbol": "AMCConsentsRequest.init(preferedLanguage:isoA2Code:legalEntityCode:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCConsentsRequest.swift",
-      "line": 106,
+      "line": 75,
       "symbol": "AMCConsentsRequestObjC.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCConsentsRequest.swift",
-      "line": 110,
+      "line": 79,
       "symbol": "AMCConsentsRequestObjC.init(preferedLanguage:isoA2Code:legalEntityCode:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -345,7 +345,7 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCCreateUserRequest.swift",
-      "line": 97,
+      "line": 75,
       "symbol": "AMCCreateUserRequest.init(email:password:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -359,14 +359,14 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCGetUserRequest.swift",
-      "line": 41,
+      "line": 25,
       "symbol": "AMCGetUserRequest.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCGetUserRequest.swift",
-      "line": 68,
+      "line": 37,
       "symbol": "AMCGetUserRequestObjC.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -380,14 +380,14 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCHandleResetPasswordRequest.swift",
-      "line": 56,
+      "line": 40,
       "symbol": "AMCHandleResetPasswordRequest.init(email:baseUrl:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCHandleResetPasswordRequest.swift",
-      "line": 70,
+      "line": 54,
       "symbol": "AMCHandleResetPasswordRequestObjC.init(email:baseUrl:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -401,14 +401,14 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
-      "line": 95,
+      "line": 73,
       "symbol": "AMCIsUserExistingRequest.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
-      "line": 107,
+      "line": 85,
       "symbol": "AMCIsUserExistingRequestObjC.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -422,14 +422,14 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
-      "line": 126,
+      "line": 110,
       "symbol": "AMCSubscribeEmailRequest.init(email:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
-      "line": 161,
+      "line": 130,
       "symbol": "AMCSubscribeEmailRequestObjC.init(email:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -443,35 +443,35 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 86,
+      "line": 70,
       "symbol": "AMCUpdateUserRequest.AMCChangePassword",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 94,
+      "line": 78,
       "symbol": "AMCUpdateUserRequest.AMCChangePassword.init(oldPassword:newPassword:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 99,
+      "line": 83,
       "symbol": "AMCUpdateUserRequest.AMCChangePassword.init(newPassword:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 180,
+      "line": 164,
       "symbol": "AMCUpdateUserRequest.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
-      "line": 208,
+      "line": 177,
       "symbol": "AMCUpdateUserRequestObjC.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
