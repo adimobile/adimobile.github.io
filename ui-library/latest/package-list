@@ -17,7 +17,6 @@ com.adidas.ui.imagecrop.photoview
 com.adidas.ui.imagecrop.photoview.gestures
 com.adidas.ui.imagecrop.photoview.scrollerproxy
 com.adidas.ui.listeners
-com.adidas.ui.mailcheck
 com.adidas.ui.scroll
 com.adidas.ui.suggestion
 com.adidas.ui.util
