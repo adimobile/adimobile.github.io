@@ -47,6 +47,9 @@
                 <a href="../Classes/AMCConsentsResponse.html">AMCConsentsResponse</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/AMCConsumerAttribute.html">AMCConsumerAttribute</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/AMCCreateUserRequest.html">AMCCreateUserRequest</a>
               </li>
               <li class="nav-group-task">
@@ -101,6 +104,12 @@
                 <a href="../Classes/AMCPhone/AMCPhoneType.html">– AMCPhoneType</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/AMCProxy.html">AMCProxy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCProxyKeysResponse.html">AMCProxyKeysResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/AMCRefreshTokenRequest.html">AMCRefreshTokenRequest</a>
               </li>
               <li class="nav-group-task">
@@ -126,6 +135,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes.html#/s:C11ConnectCore25AMCSubscribeEmailResponse">AMCSubscribeEmailResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCSubscription.html">AMCSubscription</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AMCToken.html">AMCToken</a>
@@ -611,6 +623,64 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">loyalty</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCLoyalty.html">AMCLoyalty</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore7AMCUser18consumerAttributesGSqGSaCS_20AMCConsumerAttribute__"></a>
+                    <a name="//apple_ref/swift/Property/consumerAttributes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore7AMCUser18consumerAttributesGSqGSaCS_20AMCConsumerAttribute__">consumerAttributes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List of consumer attribute(s) elements for different attribute types as per master data in SCV.
+For each attribute a name-value is allowed as stored for a user entry.
+Note that this attribute will be available only if using SCV as service, if you are using Cloud
+this method will return null.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">consumerAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/AMCConsumerAttribute.html">AMCConsumerAttribute</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore7AMCUser13subscriptionsGSqGSaCS_15AMCSubscription__"></a>
+                    <a name="//apple_ref/swift/Property/subscriptions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore7AMCUser13subscriptionsGSqGSaCS_15AMCSubscription__">subscriptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>One to many relationship. This would contain multiple subscriptions which are applicable
+for the site and each subscription.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">subscriptions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/AMCSubscription.html">AMCSubscription</a></span><span class="p">]?</span></code></pre>
 
                         </div>
                       </div>

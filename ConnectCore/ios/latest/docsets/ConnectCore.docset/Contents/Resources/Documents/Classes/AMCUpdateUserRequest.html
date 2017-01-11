@@ -47,6 +47,9 @@
                 <a href="../Classes/AMCConsentsResponse.html">AMCConsentsResponse</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/AMCConsumerAttribute.html">AMCConsumerAttribute</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/AMCCreateUserRequest.html">AMCCreateUserRequest</a>
               </li>
               <li class="nav-group-task">
@@ -101,6 +104,12 @@
                 <a href="../Classes/AMCPhone/AMCPhoneType.html">– AMCPhoneType</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/AMCProxy.html">AMCProxy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCProxyKeysResponse.html">AMCProxyKeysResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/AMCRefreshTokenRequest.html">AMCRefreshTokenRequest</a>
               </li>
               <li class="nav-group-task">
@@ -126,6 +135,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes.html#/s:C11ConnectCore25AMCSubscribeEmailResponse">AMCSubscribeEmailResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCSubscription.html">AMCSubscription</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AMCToken.html">AMCToken</a>
@@ -802,6 +814,163 @@ After user creation you will be logged in and user data will be available</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCUpdateUserRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="../Classes.html#/s:C11ConnectCore21AMCUpdateUserResponse">AMCUpdateUserResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore20AMCUpdateUserRequest3addFT17consumerAttributeCS_20AMCConsumerAttribute_T_"></a>
+                    <a name="//apple_ref/swift/Method/add(consumerAttribute:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore20AMCUpdateUserRequest3addFT17consumerAttributeCS_20AMCConsumerAttribute_T_">add(consumerAttribute:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds list of consumer attribute(s) elements for different attribute types as per master data in SCV.
+For each attribute a name-value is allowed as stored for a user entry.
+Note that adding attributes is available only if using SCV as service.</p>
+
+<ul>
+<li>Parameters:
+
+<ul>
+<li>consumerAttribute</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">consumerAttribute</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCConsumerAttribute.html">AMCConsumerAttribute</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>consumerAttribute</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore20AMCUpdateUserRequest21getConsumerAttributesFT_GSqGSaCS_20AMCConsumerAttribute__"></a>
+                    <a name="//apple_ref/swift/Method/getConsumerAttributes()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore20AMCUpdateUserRequest21getConsumerAttributesFT_GSqGSaCS_20AMCConsumerAttribute__">getConsumerAttributes()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AMCUpdateUserRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/AMCRequest.html">AMCRequest</a></span><span class="o">&lt;</span><span class="kt"><a href="../Classes.html#/s:C11ConnectCore21AMCUpdateUserResponse">AMCUpdateUserResponse</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore20AMCUpdateUserRequest16getSubscriptionsFT_GSqGSaSi__"></a>
+                    <a name="//apple_ref/swift/Method/getSubscriptions()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore20AMCUpdateUserRequest16getSubscriptionsFT_GSqGSaSi__">getSubscriptions()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>One to Many relationship. The Ids of the newsletter type ids that the consumer has subscribed or to be subscribed for.
+The list of ids sent will be updated in DB.
+The ids which are present for the consumer but not in the request will be un subscribed.
+This is applicable only to those newsletter type ids that are configured for the site, others are untouched</p>
+
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    Consumer subscriptions.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getSubscriptions</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Int</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Consumer subscriptions.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore20AMCUpdateUserRequest15addSubscriptionFSiT_"></a>
+                    <a name="//apple_ref/swift/Method/addSubscription(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore20AMCUpdateUserRequest15addSubscriptionFSiT_">addSubscription(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>One to Many relationship. The Ids of the newsletter type ids that the consumer has subscribed or to be subscribed for.
+The list of ids sent will be updated in DB.
+The ids which are present for the consumer but not in the request will be un subscribed.
+This is applicable only to those newsletter type ids that are configured for the site, others are untouched
+This method will only have effect if you are using SCV service
+- Parameters:
+- subscriptionId</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addSubscription</span><span class="p">(</span><span class="n">_</span> <span class="nv">subscriptionId</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
