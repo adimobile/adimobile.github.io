@@ -226,49 +226,49 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 37,
+      "line": 39,
       "symbol": "AUIDOBInputView.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 42,
+      "line": 44,
       "symbol": "AUIDOBInputView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 54,
+      "line": 56,
       "symbol": "AUIDOBInputView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 135,
+      "line": 143,
       "symbol": "AUIDOBInputView.minimumAge",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 156,
+      "line": 164,
       "symbol": "AUIDOBInputView.dateFormat",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 177,
+      "line": 185,
       "symbol": "AUIDOBInputView.separatorType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
-      "line": 201,
+      "line": 209,
       "symbol": "AUIDOBInputView.textInputDelegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -352,238 +352,252 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 52,
+      "line": 53,
       "symbol": "AUIEndlessPickerView.pagingEnabled",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 70,
+      "line": 71,
       "symbol": "AUIEndlessPickerView.currentValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 79,
+      "line": 80,
       "symbol": "AUIEndlessPickerView.infinite",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 102,
+      "line": 104,
+      "symbol": "AUIEndlessPickerView.tintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
+      "line": 110,
       "symbol": "AUIEndlessPickerView.delegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 106,
+      "line": 114,
       "symbol": "AUIEndlessPickerView.InfinitePickerViewFlags",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 107,
+      "line": 115,
       "symbol": "AUIEndlessPickerView.InfinitePickerViewFlags.currentOrientationLandscape",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 108,
+      "line": 116,
       "symbol": "AUIEndlessPickerView.InfinitePickerViewFlags.infinite",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 109,
+      "line": 117,
       "symbol": "AUIEndlessPickerView.InfinitePickerViewFlags.loaded",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 110,
+      "line": 118,
       "symbol": "AUIEndlessPickerView.InfinitePickerViewFlags.needRecalculateFrames",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 111,
+      "line": 119,
       "symbol": "AUIEndlessPickerView.InfinitePickerViewFlags.needUpdateCurrentIndex",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 114,
+      "line": 122,
+      "symbol": "AUIEndlessPickerView.infinitePickerViewFlags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
+      "line": 124,
       "symbol": "AUIEndlessPickerView.scrollView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 115,
+      "line": 125,
       "symbol": "AUIEndlessPickerView.selectedView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 123,
+      "line": 133,
       "symbol": "AUIEndlessPickerView.lastSelectedIndex",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 127,
+      "line": 137,
       "symbol": "AUIEndlessPickerView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 132,
+      "line": 142,
       "symbol": "AUIEndlessPickerView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 137,
+      "line": 147,
       "symbol": "AUIEndlessPickerView.intrinsicContentSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 153,
+      "line": 163,
       "symbol": "AUIEndlessPickerView.bounds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 170,
+      "line": 180,
       "symbol": "AUIEndlessPickerView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 187,
+      "line": 197,
       "symbol": "AUIEndlessPickerView.panGestureRecognzer",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 193,
+      "line": 203,
       "symbol": "AUIEndlessPickerView.setCurrentIndex(newIndex:animated:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 231,
+      "line": 241,
       "symbol": "AUIEndlessPickerView.didRecalculatePositions()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 607,
+      "line": 617,
       "symbol": "AUIEndlessPickerView.scrollViewDidEndDecelerating(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 620,
+      "line": 630,
       "symbol": "AUIEndlessPickerView.scrollViewDidEndDragging(_:willDecelerate:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 637,
+      "line": 647,
       "symbol": "AUIEndlessPickerView.scrollViewDidEndScrollingAnimation(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 678,
+      "line": 688,
       "symbol": "AUIEndlessPickerView.scrollViewDidScroll(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 706,
+      "line": 721,
       "symbol": "AUIEndlessPickerView.scrollViewDidZoom(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 710,
+      "line": 725,
       "symbol": "AUIEndlessPickerView.scrollViewWillBeginDragging(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 714,
+      "line": 729,
       "symbol": "AUIEndlessPickerView.scrollViewWillEndDragging(_:withVelocity:targetContentOffset:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 720,
+      "line": 735,
       "symbol": "AUIEndlessPickerView.scrollViewWillBeginDecelerating(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 724,
+      "line": 739,
       "symbol": "AUIEndlessPickerView.viewForZooming(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 728,
+      "line": 743,
       "symbol": "AUIEndlessPickerView.scrollViewWillBeginZooming(_:with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 732,
+      "line": 747,
       "symbol": "AUIEndlessPickerView.scrollViewDidEndZooming(_:with:atScale:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 736,
+      "line": 751,
       "symbol": "AUIEndlessPickerView.scrollViewShouldScrollToTop(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerView.swift",
-      "line": 740,
+      "line": 755,
       "symbol": "AUIEndlessPickerView.scrollViewDidScrollToTop(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -633,20 +647,27 @@
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerViewCell.swift",
       "line": 47,
-      "symbol": "AUIEndlessPickerViewCell.contentViewXOffset",
+      "symbol": "AUIEndlessPickerViewCell.tintColor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerViewCell.swift",
       "line": 53,
+      "symbol": "AUIEndlessPickerViewCell.contentViewXOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerViewCell.swift",
+      "line": 59,
       "symbol": "AUIEndlessPickerViewCell.init(contentView:index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIEndlessPickerView/AUIEndlessPickerViewCell.swift",
-      "line": 61,
+      "line": 67,
       "symbol": "AUIEndlessPickerViewCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
