@@ -86,6 +86,27 @@
                 <a href="../Classes/AMCIsUserExistingResponse.html">AMCIsUserExistingResponse</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/AMCLoginMobileToWebRequest.html">AMCLoginMobileToWebRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLoginMobileToWebRequest/LegalEntity.html">– LegalEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLoginMobileToWebRequest/EComSite.html">– EComSite</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLoginMobileToWebRequestObjC.html">AMCLoginMobileToWebRequestObjC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLoginMobileToWebRequestObjC/LegalEntityObjC.html">– LegalEntityObjC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCLoginMobileToWebRequestObjC/EComSiteObjC.html">– EComSiteObjC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C11ConnectCore27AMCLoginMobileToWebResponse">AMCLoginMobileToWebResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/AMCLoginRequest.html">AMCLoginRequest</a>
               </li>
               <li class="nav-group-task">
@@ -96,6 +117,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AMCLoyalty.html">AMCLoyalty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AMCNewsletterTopic.html">AMCNewsletterTopic</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/AMCPhone.html">AMCPhone</a>
@@ -916,6 +940,101 @@ This method will only have effect if you are using SCV service
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addSubscription</span><span class="p">(</span><span class="n">_</span> <span class="nv">subscriptionId</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore24AMCUpdateUserRequestObjC19getNewsletterTopicsFT_GSqGSaSi__"></a>
+                    <a name="//apple_ref/swift/Method/getNewsletterTopics()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore24AMCUpdateUserRequestObjC19getNewsletterTopicsFT_GSqGSaSi__">getNewsletterTopics()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>One to Many. The ids of the topics that the consumer has subscribed to.
+The list of ids sent will be updated in the DB.
+The ids that are not sent will be removed from the DB
+This method will only have effect if you are using SCV service
+- Returns: Consumer newsletter topics.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getNewsletterTopics</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Int</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Consumer newsletter topics.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC11ConnectCore24AMCUpdateUserRequestObjC18addNewsletterTopicFSiT_"></a>
+                    <a name="//apple_ref/swift/Method/addNewsletterTopic(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC11ConnectCore24AMCUpdateUserRequestObjC18addNewsletterTopicFSiT_">addNewsletterTopic(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>One to Many. The ids of the topics that the consumer has subscribed to.
+The list of ids sent will be updated in the DB.
+The ids that are not sent will be removed from the DB
+This method will only have effect if you are using SCV service
+- Parameters:
+- newsletterTopicId</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addNewsletterTopic</span><span class="p">(</span><span class="n">_</span> <span class="nv">newsletterTopicId</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC11ConnectCore24AMCUpdateUserRequestObjC16newsletterDomainGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/newsletterDomain" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC11ConnectCore24AMCUpdateUserRequestObjC16newsletterDomainGSqSS_">newsletterDomain</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The ISO Name of the countryOfSite e.g. United Kingdom, United States, Germany etc. Default domain will be <q>United Kingdom</q></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">newsletterDomain</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>

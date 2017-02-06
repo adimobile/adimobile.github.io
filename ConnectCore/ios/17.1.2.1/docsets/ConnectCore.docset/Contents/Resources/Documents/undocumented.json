@@ -464,14 +464,14 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
-      "line": 59,
+      "line": 73,
       "symbol": "AMCIsUserExistingRequest.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
-      "line": 71,
+      "line": 85,
       "symbol": "AMCIsUserExistingRequestObjC.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
