@@ -86,56 +86,63 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 69,
+      "line": 63,
+      "symbol": "AMCLoginViewController.emailLookupOutOfFocusBottomLinkActionHandler",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
+      "line": 77,
       "symbol": "AMCLoginViewController.init(connectLoginConfig:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 98,
+      "line": 108,
       "symbol": "AMCLoginViewController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 106,
+      "line": 116,
       "symbol": "AMCLoginViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 110,
+      "line": 120,
       "symbol": "AMCLoginViewController.storeSharedCredentials(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 158,
+      "line": 168,
       "symbol": "AMCLoginViewController.becomeFirstResponder(animated:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 164,
+      "line": 174,
       "symbol": "AMCLoginViewController.resignFirstResponder(animated:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 175,
+      "line": 185,
       "symbol": "AMCLoginViewController.crossApplicationLoginControllerDidSelectAccount()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Authentication View Controllers/AMCLoginViewController.swift",
-      "line": 179,
+      "line": 189,
       "symbol": "AMCLoginViewController.crossApplicationLoginControllerDidSwitchAccount()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
