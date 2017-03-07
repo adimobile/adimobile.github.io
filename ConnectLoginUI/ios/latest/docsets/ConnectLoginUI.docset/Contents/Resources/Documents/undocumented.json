@@ -444,7 +444,7 @@
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectLoginUI_Publish_Release_iOS/ConnectUI/ConnectLoginUI/GUI/Modal Overlay Container/AMCViewControllerTransitionContainer.swift",
       "line": 65,
-      "symbol": "AMCViewControllerTransitionContainer.transitionToViewController(_:directionFromRight:animated:)",
+      "symbol": "AMCViewControllerTransitionContainer.transitionToViewController(_:directionFromRight:animated:completionBlock:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
