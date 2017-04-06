@@ -23,35 +23,35 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 272,
+      "line": 269,
       "symbol": "AUIAlertController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 317,
+      "line": 314,
       "symbol": "AUIAlertController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 338,
+      "line": 335,
       "symbol": "AUIAlertController.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 344,
+      "line": 341,
       "symbol": "AUIAlertController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIAlertController/AUIAlertController.swift",
-      "line": 362,
+      "line": 359,
       "symbol": "AUIAlertController.actions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -79,56 +79,56 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 24,
+      "line": 25,
       "symbol": "AUIButton",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 67,
+      "line": 68,
       "symbol": "AUIButton.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 72,
+      "line": 73,
       "symbol": "AUIButton.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 77,
+      "line": 78,
       "symbol": "AUIButton.init(type:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 83,
+      "line": 84,
       "symbol": "AUIButton.intrinsicContentSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 252,
+      "line": 253,
       "symbol": "AUIButton.isHighlighted",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 258,
+      "line": 259,
       "symbol": "AUIButton.isEnabled",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIButton/AUIButton.swift",
-      "line": 400,
+      "line": 432,
       "symbol": "AUIButton.prepareForInterfaceBuilder()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
