@@ -134,6 +134,167 @@
       "warning": "undocumented"
     },
     {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardCvvInputView.swift",
+      "line": 15,
+      "symbol": "AUICardCvvInputView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardCvvInputView.swift",
+      "line": 19,
+      "symbol": "AUICardCvvInputView.creditCard",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardCvvInputView.swift",
+      "line": 50,
+      "symbol": "AUICardCvvInputView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardCvvInputView.swift",
+      "line": 55,
+      "symbol": "AUICardCvvInputView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 12,
+      "symbol": "AUICardExpDateViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 13,
+      "symbol": "AUICardExpDateViewDelegate.textInputViewDidChangeEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 16,
+      "symbol": "AUICardExpDateFormat",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 17,
+      "symbol": "AUICardExpDateFormat.ym",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 18,
+      "symbol": "AUICardExpDateFormat.my",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 23,
+      "symbol": "AUICardExpDateInputView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 29,
+      "symbol": "AUICardExpDateInputView.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 34,
+      "symbol": "AUICardExpDateInputView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 46,
+      "symbol": "AUICardExpDateInputView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 138,
+      "symbol": "AUICardExpDateInputView.dateFormat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 160,
+      "symbol": "AUICardExpDateInputView.separatorType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICardExpiryDateInputView/AUICardExpDateInputView.swift",
+      "line": 185,
+      "symbol": "AUICardExpDateInputView.textInputDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICreditCardInputView/AUICardNumberInputView.swift",
+      "line": 12,
+      "symbol": "AUICardNumberInputView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICreditCardInputView/AUICardNumberInputView.swift",
+      "line": 16,
+      "symbol": "AUICardNumberInputView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICreditCardInputView/AUICardNumberInputView.swift",
+      "line": 21,
+      "symbol": "AUICardNumberInputView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICreditCardInputView/AUICardNumberInputView.swift",
+      "line": 34,
+      "symbol": "AUICardNumberInputView.cameraMode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICreditCardInputView/AUICardNumberInputView.swift",
+      "line": 43,
+      "symbol": "AUICardNumberInputView.cameraModeIsActivated",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICreditCardInputView/AUICardNumberInputView.swift",
+      "line": 60,
+      "symbol": "AUICardNumberInputView.supportedCreditCards",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUICreditCardInputView/AUICreditCard.swift",
+      "line": 11,
+      "symbol": "AUICardType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/adidasUI_Publish_Release_iOS/adidasUI/adidasUI/AUIDOBInputView/AUIDOBInputView.swift",
       "line": 12,
       "symbol": "AUIDOBInputViewDelegate",
