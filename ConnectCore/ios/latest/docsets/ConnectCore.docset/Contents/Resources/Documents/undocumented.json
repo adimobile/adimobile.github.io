@@ -304,13 +304,13 @@
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
       "line": 18,
-      "symbol": "AMCSocialLoginRequest.init(username:socialToken:)",
+      "symbol": "AMCSocialLoginRequest.init(username:socialToken:sourceId:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
-      "line": 26,
+      "line": 27,
       "symbol": "AMCSocialLoginRequest.scope",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
