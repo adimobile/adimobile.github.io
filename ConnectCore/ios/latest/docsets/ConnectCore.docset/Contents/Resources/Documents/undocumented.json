@@ -37,105 +37,105 @@
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 85,
+      "line": 88,
       "symbol": "AMCConnectCore.isServicesReachable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 127,
+      "line": 130,
       "symbol": "AMCConnectCore.accessTokenManager",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 139,
+      "line": 142,
       "symbol": "AMCConnectCore.proxy",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 252,
+      "line": 255,
       "symbol": "AMCConnectCore.loginObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 270,
+      "line": 273,
       "symbol": "AMCConnectCore.socialLoginObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 300,
+      "line": 303,
       "symbol": "AMCConnectCore.refreshTokenObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 318,
+      "line": 321,
       "symbol": "AMCConnectCore.createUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 335,
+      "line": 338,
       "symbol": "AMCConnectCore.getUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 352,
+      "line": 355,
       "symbol": "AMCConnectCore.isUserExistingObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 369,
+      "line": 372,
       "symbol": "AMCConnectCore.handleResetPasswordObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 388,
+      "line": 391,
       "symbol": "AMCConnectCore.updateUserObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 462,
+      "line": 465,
       "symbol": "AMCConnectCore.subscribeEmailObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 481,
+      "line": 484,
       "symbol": "AMCConnectCore.getConsentsObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 499,
+      "line": 502,
       "symbol": "AMCConnectCore.loginMobileToWebObjC(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/jenkins/Mobile_Applications/MobileTeam/iOS/ConnectCore_Publish_Release_iOS/ConnectCore/ConnectCore/AMCConnectCore.swift",
-      "line": 522,
+      "line": 525,
       "symbol": "AMCConnectCore.generateMobileToWebURLObjC(legalEntity:eComSite:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
