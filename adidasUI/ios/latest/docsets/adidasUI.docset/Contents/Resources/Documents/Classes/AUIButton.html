@@ -456,6 +456,72 @@ is to use the title associated with the UIControlStateNormal state.</p>
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:FC8adidasUI9AUIButton18setAttributedTitleFTGSqCSo18NSAttributedString_8forStateVSC14UIControlState_T_"></a>
+                    <a name="//apple_ref/swift/Method/setAttributedTitle(_:forState:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI9AUIButton18setAttributedTitleFTGSqCSo18NSAttributedString_8forStateVSC14UIControlState_T_">setAttributedTitle(_:forState:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the title to use for the specified state with an attributed string.</p>
+
+<p>Use this method to set the title for the button.
+The title you specify derives its formatting from the button’s associated label object.
+At a minimum, you should set the value for the normal state.
+If a title is not specified for a state, the default behavior
+is to use the title associated with the UIControlStateNormal state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">setAttributedTitle</span><span class="p">(</span><span class="n">_</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">NSAttributedString</span><span class="p">?,</span> <span class="n">forState</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIControlState</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The title to use for the specified state.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state that uses the specified title. The possible values are described in UIControlState.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:FC8adidasUI9AUIButton13titleForStateFVSC14UIControlStateGSqSS_"></a>
                     <a name="//apple_ref/swift/Method/titleForState(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:FC8adidasUI9AUIButton13titleForStateFVSC14UIControlStateGSqSS_">titleForState(_:)</a>
@@ -477,6 +543,61 @@ this method returns the title associated with the UIControlStateNormal state.</p
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">titleForState</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIControlState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state that uses the title. The possible values are described in UIControlState.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The title for the specified state.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC8adidasUI9AUIButton23attributedTitleForStateFVSC14UIControlStateGSqCSo18NSAttributedString_"></a>
+                    <a name="//apple_ref/swift/Method/attributedTitleForState(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC8adidasUI9AUIButton23attributedTitleForStateFVSC14UIControlStateGSqCSo18NSAttributedString_">attributedTitleForState(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the title associated with the specified state with attributed string.</p>
+
+<p>The title for the specified state. If no title has been set for the specific state,
+this method returns the title associated with the UIControlStateNormal state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">attributedTitleForState</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIControlState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSAttributedString</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
