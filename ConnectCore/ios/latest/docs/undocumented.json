@@ -1,0 +1,1391 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCCommonErrors.swift",
+      "line": null,
+      "symbol": "AMCAPIError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCCommonErrors.swift",
+      "line": 13,
+      "symbol": "AMCAPIError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCCommonErrors.swift",
+      "line": 56,
+      "symbol": "AMCCommonSCVConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCCommonErrors.swift",
+      "line": 118,
+      "symbol": "AMCCommonPFConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 65,
+      "symbol": "AMCReachabilityChangedNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 73,
+      "symbol": "AMCConnectCore.AMCReachabilityChangedNotificationName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 91,
+      "symbol": "AMCConnectCore.isServicesReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 133,
+      "symbol": "AMCConnectCore.accessTokenManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 146,
+      "symbol": "AMCConnectCore.proxy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 250,
+      "symbol": "AMCConnectCore.loginObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 268,
+      "symbol": "AMCConnectCore.socialLoginObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 299,
+      "symbol": "AMCConnectCore.refreshTokenObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 317,
+      "symbol": "AMCConnectCore.createUserObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 334,
+      "symbol": "AMCConnectCore.getUserObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 351,
+      "symbol": "AMCConnectCore.isUserExistingObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 368,
+      "symbol": "AMCConnectCore.handleResetPasswordObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 387,
+      "symbol": "AMCConnectCore.updateUserObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 462,
+      "symbol": "AMCConnectCore.subscribeEmailObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 481,
+      "symbol": "AMCConnectCore.getConsentsObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 499,
+      "symbol": "AMCConnectCore.loginMobileToWebObjC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/AMCConnectCore.swift",
+      "line": 522,
+      "symbol": "AMCConnectCore.generateMobileToWebURLObjC(legalEntity:eComSite:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/CommonApi/Models/Responses/AMCResponse.swift",
+      "line": 38,
+      "symbol": "AMCResponse.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCSession.swift",
+      "line": 15,
+      "symbol": "AMCSession.init(token:email:fullName:facebookAvatarUrl:eUCI:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCSession.swift",
+      "line": 26,
+      "symbol": "AMCSession.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCSession.swift",
+      "line": 40,
+      "symbol": "AMCSession.facebookAvatarUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCToken.swift",
+      "line": 40,
+      "symbol": "AMCToken.init(accessTokenManager:accessToken:refreshToken:expiresIn:expiresDate:tokenType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCToken.swift",
+      "line": 57,
+      "symbol": "AMCToken.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCToken.swift",
+      "line": 71,
+      "symbol": "AMCToken.expiresIn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCToken.swift",
+      "line": 74,
+      "symbol": "AMCToken.expiresDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCToken.swift",
+      "line": 77,
+      "symbol": "AMCToken.tokenType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCTokenData.swift",
+      "line": 20,
+      "symbol": "AMCTokenData.init(userId:email:firstName:lastName:conditionCode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCTokenData.swift",
+      "line": 31,
+      "symbol": "AMCTokenData.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCTokenData.swift",
+      "line": 42,
+      "symbol": "AMCTokenData.firstName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCTokenData.swift",
+      "line": 45,
+      "symbol": "AMCTokenData.lastName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/AMCTokenData.swift",
+      "line": 48,
+      "symbol": "AMCTokenData.conditionCode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCBaseLoginRequest.swift",
+      "line": 11,
+      "symbol": "AMCBaseLoginRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCBaseLoginRequest.swift",
+      "line": 15,
+      "symbol": "AMCBaseLoginRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCBaseLoginRequest.swift",
+      "line": 16,
+      "symbol": "AMCBaseLoginRequest.validatorId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCBaseLoginRequest.swift",
+      "line": 17,
+      "symbol": "AMCBaseLoginRequest.scope",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCBaseLoginRequest.swift",
+      "line": 19,
+      "symbol": "AMCBaseLoginRequest.init(username:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCLoginRequest.swift",
+      "line": 16,
+      "symbol": "AMCLoginRequest.init(username:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCLoginRequest.swift",
+      "line": 31,
+      "symbol": "AMCLoginRequestObjC.init(username:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCLoginRequest.swift",
+      "line": 52,
+      "symbol": "AMCLoginRequestObjC.username",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCLoginRequest.swift",
+      "line": 58,
+      "symbol": "AMCLoginRequestObjC.password",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCRefreshTokenRequest.swift",
+      "line": 37,
+      "symbol": "AMCRefreshTokenRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCRefreshTokenRequest.swift",
+      "line": 39,
+      "symbol": "AMCRefreshTokenRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCRefreshTokenRequest.swift",
+      "line": 52,
+      "symbol": "AMCRefreshTokenRequestObjC.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCRefreshTokenRequest.swift",
+      "line": 66,
+      "symbol": "AMCRefreshTokenRequestObjC.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 19,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0001",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 21,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0002",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 23,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0003",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 25,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0004",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 27,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0006",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 29,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0007",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 31,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0008",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 33,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0009",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 35,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0010",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 37,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0011",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 39,
+      "symbol": "AMCLoginConditionCode.SCV_TRST_SCL_LNK_0012",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 41,
+      "symbol": "AMCLoginConditionCode.SCV_TRUST_AUTH_0001",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 43,
+      "symbol": "AMCLoginConditionCode.SCV_TRUST_AUTH_0002",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 45,
+      "symbol": "AMCLoginConditionCode.SCV_TRUST_AUTH_0003",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 47,
+      "symbol": "AMCLoginConditionCode.SCV_TRUST_AUTH_0004",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 49,
+      "symbol": "AMCLoginConditionCode.SCV_TRUST_AUTH_0005",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 51,
+      "symbol": "AMCLoginConditionCode.SCV_TRUST_AUTH_0006",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 53,
+      "symbol": "AMCLoginConditionCode.iCCD_WS_0007",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 55,
+      "symbol": "AMCLoginConditionCode.iCCD_WS_0008",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 57,
+      "symbol": "AMCLoginConditionCode.SV_TRST_AUTH_UNKNOWN_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 59,
+      "symbol": "AMCLoginConditionCode.SCV_SCL_LOGIN_NOT_POSSIBLE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 63,
+      "symbol": "AMCSocialLoginRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 65,
+      "symbol": "AMCSocialLoginRequest.init(username:socialToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 73,
+      "symbol": "AMCSocialLoginRequest.scope",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/PFApi/Models/Requests/AMCSocialLoginRequest.swift",
+      "line": 106,
+      "symbol": "AMCSocialLoginRequestObjC",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCAddress.swift",
+      "line": 72,
+      "symbol": "AMCPhone.init(phoneNumber:phoneType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCAddress.swift",
+      "line": 85,
+      "symbol": "AMCAddress.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCAddress.swift",
+      "line": 163,
+      "symbol": "AMCAddress.packstationName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCLoyalty.swift",
+      "line": 32,
+      "symbol": "AMCLoyalty.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 17,
+      "symbol": "AMCSocialSource.facebook",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 18,
+      "symbol": "AMCSocialSource.twitter",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 19,
+      "symbol": "AMCSocialSource.googlePlus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 20,
+      "symbol": "AMCSocialSource.instagram",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 21,
+      "symbol": "AMCSocialSource.yahoo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 22,
+      "symbol": "AMCSocialSource.windowsLive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 23,
+      "symbol": "AMCSocialSource.vk",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 24,
+      "symbol": "AMCSocialSource.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCSocialApplication.swift",
+      "line": 28,
+      "symbol": "AMCSocialApplication",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCUser.swift",
+      "line": 17,
+      "symbol": "AMCConsumerAttribute.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCUser.swift",
+      "line": 19,
+      "symbol": "AMCConsumerAttribute.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/AMCUser.swift",
+      "line": 21,
+      "symbol": "AMCConsumerAttribute.init(name:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCConsentsRequest.swift",
+      "line": 11,
+      "symbol": "AMCConsentsConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCConsentsRequest.swift",
+      "line": 45,
+      "symbol": "AMCConsentsRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCConsentsRequest.swift",
+      "line": 48,
+      "symbol": "AMCConsentsRequest.init(preferedLanguage:isoA2Code:legalEntityCode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCConsentsRequest.swift",
+      "line": 73,
+      "symbol": "AMCConsentsRequestObjC.init(preferedLanguage:isoA2Code:legalEntityCode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCConsentsRequest.swift",
+      "line": 107,
+      "symbol": "AMCConsentsRequestObjC.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCCreateUserRequest.swift",
+      "line": 11,
+      "symbol": "AMCCreateUserConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCCreateUserRequest.swift",
+      "line": 68,
+      "symbol": "AMCCreateUserRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCCreateUserRequest.swift",
+      "line": 76,
+      "symbol": "AMCCreateUserRequest.init(email:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCCreateUserRequest.swift",
+      "line": 99,
+      "symbol": "AMCCreateUserRequest.getConsumerAttributes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCCreateUserRequest.swift",
+      "line": 124,
+      "symbol": "AMCCreateUserRequestObjC.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCCreateUserRequest.swift",
+      "line": 199,
+      "symbol": "AMCCreateUserRequestObjC.getConsumerAttributes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCGetUserRequest.swift",
+      "line": 11,
+      "symbol": "AMCGetUserConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCGetUserRequest.swift",
+      "line": 33,
+      "symbol": "AMCGetUserRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCGetUserRequest.swift",
+      "line": 35,
+      "symbol": "AMCGetUserRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCGetUserRequest.swift",
+      "line": 66,
+      "symbol": "AMCGetUserRequestObjC.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCGetUserRequest.swift",
+      "line": 72,
+      "symbol": "AMCGetUserRequestObjC.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCHandleResetPasswordRequest.swift",
+      "line": 11,
+      "symbol": "AMCHandleResetPasswordConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCHandleResetPasswordRequest.swift",
+      "line": 50,
+      "symbol": "AMCHandleResetPasswordRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCHandleResetPasswordRequest.swift",
+      "line": 53,
+      "symbol": "AMCHandleResetPasswordRequest.init(email:baseUrl:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCHandleResetPasswordRequest.swift",
+      "line": 69,
+      "symbol": "AMCHandleResetPasswordRequestObjC.init(email:baseUrl:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCHandleResetPasswordRequest.swift",
+      "line": 74,
+      "symbol": "AMCHandleResetPasswordRequestObjC.communicationLanguage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCHandleResetPasswordRequest.swift",
+      "line": 82,
+      "symbol": "AMCHandleResetPasswordRequestObjC.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
+      "line": 11,
+      "symbol": "AMCIsUserExistingConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
+      "line": 65,
+      "symbol": "AMCIsUserExistingRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
+      "line": 67,
+      "symbol": "AMCIsUserExistingRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
+      "line": 82,
+      "symbol": "AMCIsUserExistingRequestObjC.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCIsUserExistingRequest.swift",
+      "line": 88,
+      "symbol": "AMCIsUserExistingRequestObjC.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
+      "line": 12,
+      "symbol": "AMCSubscribeEmailConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
+      "line": 106,
+      "symbol": "AMCSubscribeEmailRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
+      "line": 114,
+      "symbol": "AMCSubscribeEmailRequest.init(email:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
+      "line": 132,
+      "symbol": "AMCSubscribeEmailRequestObjC.init(email:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCSubscribeEmailRequest.swift",
+      "line": 145,
+      "symbol": "AMCSubscribeEmailRequestObjC.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 11,
+      "symbol": "AMCUpdateUserConditionCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 72,
+      "symbol": "AMCUpdateUserRequest.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 74,
+      "symbol": "AMCUpdateUserRequest.AMCChangePassword",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 82,
+      "symbol": "AMCUpdateUserRequest.AMCChangePassword.init(oldPassword:newPassword:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 87,
+      "symbol": "AMCUpdateUserRequest.AMCChangePassword.init(newPassword:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 168,
+      "symbol": "AMCUpdateUserRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 189,
+      "symbol": "AMCUpdateUserRequest.getConsumerAttributes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 275,
+      "symbol": "AMCUpdateUserRequestObjC.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 281,
+      "symbol": "AMCUpdateUserRequestObjC.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Requests/AMCUpdateUserRequest.swift",
+      "line": 418,
+      "symbol": "AMCUpdateUserRequestObjC.getConsumerAttributes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCConsentsResponse.swift",
+      "line": 26,
+      "symbol": "AMCConsentsResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCConsentsResponse.swift",
+      "line": 28,
+      "symbol": "AMCConsentsResponse.consentLevel1",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCConsentsResponse.swift",
+      "line": 30,
+      "symbol": "AMCConsentsResponse.consentLevel2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCConsentsResponse.swift",
+      "line": 32,
+      "symbol": "AMCConsentsResponse.consentLevel3",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCConsentsResponse.swift",
+      "line": 34,
+      "symbol": "AMCConsentsResponse.consentVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCCreateUserResponse.swift",
+      "line": 62,
+      "symbol": "AMCCreateUserResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCGetUserResponse.swift",
+      "line": 26,
+      "symbol": "AMCGetUserResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCHandleResetPasswordResponse.swift",
+      "line": 16,
+      "symbol": "AMCHandleResetPasswordResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCIsUserExistingResponse.swift",
+      "line": 37,
+      "symbol": "AMCIsUserExistingResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCProxyKeysResponse.swift",
+      "line": 12,
+      "symbol": "AMCProxyKeysResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCProxyKeysResponse.swift",
+      "line": 14,
+      "symbol": "AMCProxyKeysResponse.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCProxyKeysResponse.swift",
+      "line": 16,
+      "symbol": "AMCProxyKeysResponse.appKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCSubscribeEmailResponse.swift",
+      "line": 17,
+      "symbol": "AMCSubscribeEmailResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/SCVApi/Models/Responses/AMCUpdateUserResponse.swift",
+      "line": 16,
+      "symbol": "AMCUpdateUserResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 17,
+      "symbol": "AMCLoginMobileToWebRequest.LegalEntity",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 18,
+      "symbol": "AMCLoginMobileToWebRequest.LegalEntity.adius",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 19,
+      "symbol": "AMCLoginMobileToWebRequest.LegalEntity.adiru",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 20,
+      "symbol": "AMCLoginMobileToWebRequest.LegalEntity.adide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 21,
+      "symbol": "AMCLoginMobileToWebRequest.LegalEntity.adiag",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 22,
+      "symbol": "AMCLoginMobileToWebRequest.LegalEntity.adibv",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 25,
+      "symbol": "AMCLoginMobileToWebRequest.EComSite",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 26,
+      "symbol": "AMCLoginMobileToWebRequest.EComSite.us",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 27,
+      "symbol": "AMCLoginMobileToWebRequest.EComSite.ru",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 28,
+      "symbol": "AMCLoginMobileToWebRequest.EComSite.de",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 29,
+      "symbol": "AMCLoginMobileToWebRequest.EComSite.es",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 30,
+      "symbol": "AMCLoginMobileToWebRequest.EComSite.uk",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 42,
+      "symbol": "AMCLoginMobileToWebRequest.init(legalEntity:eComSite:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 88,
+      "symbol": "AMCLoginMobileToWebRequestObjC.LegalEntityObjC",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 89,
+      "symbol": "AMCLoginMobileToWebRequestObjC.LegalEntityObjC.adius",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 90,
+      "symbol": "AMCLoginMobileToWebRequestObjC.LegalEntityObjC.adiru",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 91,
+      "symbol": "AMCLoginMobileToWebRequestObjC.LegalEntityObjC.adide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 92,
+      "symbol": "AMCLoginMobileToWebRequestObjC.LegalEntityObjC.adiag",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 93,
+      "symbol": "AMCLoginMobileToWebRequestObjC.LegalEntityObjC.adibv",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 107,
+      "symbol": "AMCLoginMobileToWebRequestObjC.EComSiteObjC",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 108,
+      "symbol": "AMCLoginMobileToWebRequestObjC.EComSiteObjC.us",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 109,
+      "symbol": "AMCLoginMobileToWebRequestObjC.EComSiteObjC.ru",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 110,
+      "symbol": "AMCLoginMobileToWebRequestObjC.EComSiteObjC.de",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 111,
+      "symbol": "AMCLoginMobileToWebRequestObjC.EComSiteObjC.es",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 112,
+      "symbol": "AMCLoginMobileToWebRequestObjC.EComSiteObjC.uk",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Single sign on mobile to web/AMCLoginMobileToWebRequest.swift",
+      "line": 127,
+      "symbol": "AMCLoginMobileToWebRequestObjC.init(legalEntity:eComSite:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": null,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 31,
+      "symbol": "ReachabilityError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 32,
+      "symbol": "ReachabilityError.FailedToCreateWithAddress",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 33,
+      "symbol": "ReachabilityError.FailedToCreateWithHostname",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 34,
+      "symbol": "ReachabilityError.UnableToSetCallback",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 35,
+      "symbol": "ReachabilityError.UnableToSetDispatchQueue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 38,
+      "symbol": "ReachabilityChangedNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 51,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 56,
+      "symbol": "Reachability.NetworkStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 58,
+      "symbol": "Reachability.NetworkStatus.notReachable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 58,
+      "symbol": "Reachability.NetworkStatus.reachableViaWWAN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 58,
+      "symbol": "Reachability.NetworkStatus.reachableViaWiFi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 69,
+      "symbol": "Reachability.whenReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 70,
+      "symbol": "Reachability.whenUnreachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 71,
+      "symbol": "Reachability.reachableOnWWAN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 74,
+      "symbol": "Reachability.notificationCenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 76,
+      "symbol": "Reachability.currentReachabilityString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 80,
+      "symbol": "Reachability.currentReachabilityStatus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 108,
+      "symbol": "Reachability.init(reachabilityRef:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 113,
+      "symbol": "Reachability.init(hostname:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 120,
+      "symbol": "Reachability.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 145,
+      "symbol": "Reachability.startNotifier()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 169,
+      "symbol": "Reachability.stopNotifier()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 178,
+      "symbol": "Reachability.isReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 196,
+      "symbol": "Reachability.isReachableViaWWAN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 201,
+      "symbol": "Reachability.isReachableViaWiFi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore/Classes/Utils/Reachability.swift",
+      "line": 213,
+      "symbol": "Reachability.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/aliagfer/Desktop/git/ios-connect-core/ConnectCore"
+}
