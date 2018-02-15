@@ -1,0 +1,1524 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 2,
+      "symbol": "Colors.Entry.adiAlertApproved",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 3,
+      "symbol": "Colors.Entry.adiAlertError",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 4,
+      "symbol": "Colors.Entry.adiAlertInfo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 5,
+      "symbol": "Colors.Entry.adiAlertWarning",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 6,
+      "symbol": "Colors.Entry.adiAppBlue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 7,
+      "symbol": "Colors.Entry.adiAppDarkBlue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 8,
+      "symbol": "Colors.Entry.adiBlack",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 9,
+      "symbol": "Colors.Entry.adiDarkBlue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 10,
+      "symbol": "Colors.Entry.adiDarkGrey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 11,
+      "symbol": "Colors.Entry.adiDarkestGrey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 12,
+      "symbol": "Colors.Entry.adiFeedbackYellow",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 13,
+      "symbol": "Colors.Entry.adiLightGrey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 14,
+      "symbol": "Colors.Entry.adiLightestGrey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 15,
+      "symbol": "Colors.Entry.adiMainBlue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 16,
+      "symbol": "Colors.Entry.adiMediumGrey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 17,
+      "symbol": "Colors.Entry.adiNewGreen",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 18,
+      "symbol": "Colors.Entry.adiSaleRed",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 19,
+      "symbol": "Colors.Entry.adiSearchHighlight",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 20,
+      "symbol": "Colors.Entry.adiSuperLightGrey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 21,
+      "symbol": "Colors.Entry.adiWhite",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 22,
+      "symbol": "Colors.Entry.copyAlertApproved",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 23,
+      "symbol": "Colors.Entry.copyAlertError",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 24,
+      "symbol": "Colors.Entry.copyAlertInfo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 25,
+      "symbol": "Colors.Entry.copyAlertWarning",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 29,
+      "symbol": "Fonts.Entry.adiHausDinBold12",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 30,
+      "symbol": "Fonts.Entry.adiHausDinBold14",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 31,
+      "symbol": "Fonts.Entry.adiHausDinRegular12",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 32,
+      "symbol": "Fonts.Entry.adiHausDinRegular14",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 33,
+      "symbol": "Fonts.Entry.adiNeueProBlack12",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 34,
+      "symbol": "Fonts.Entry.adiNeueProBlack14",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 38,
+      "symbol": "ImageAssets.Entry.icon_cross",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 39,
+      "symbol": "ImageAssets.Entry.icon_checkmark",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 40,
+      "symbol": "ImageAssets.Entry.icon_switch_checkmark",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 41,
+      "symbol": "ImageAssets.Entry.icon_arrow",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 44,
+      "symbol": "AdidasUIStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/Resources/AdidasUIStyle.swift",
+      "line": 48,
+      "symbol": "AdidasUIStyle.load()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Accessibility/AccessibilityIdentifiers.swift",
+      "line": 11,
+      "symbol": "AccessibilityIdentifier",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Accessibility/AccessibilityIdentifiers.swift",
+      "line": 23,
+      "symbol": "AccessibilityIdentifier.init(id:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Accessibility/AccessibilityIdentifiers.swift",
+      "line": 27,
+      "symbol": "AccessibilityIdentifier.init(id:prefixIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Accessibility/AccessibilityIdentifiers.swift",
+      "line": 47,
+      "symbol": "UIAccessibilityIdentification.setAccessibilityIdentifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Extensions/UILayoutPriority+Extensions.swift",
+      "line": 23,
+      "symbol": "UILayoutPriority.+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Extensions/UILayoutPriority+Extensions.swift",
+      "line": 27,
+      "symbol": "UILayoutPriority.+=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Extensions/UILayoutPriority+Extensions.swift",
+      "line": 31,
+      "symbol": "UILayoutPriority.-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Extensions/UILayoutPriority+Extensions.swift",
+      "line": 35,
+      "symbol": "UILayoutPriority.-=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Extensions/UIView/UIView+Enumerate.swift",
+      "line": 20,
+      "symbol": "UIView.AllSubviewsIncludeOption",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Extensions/UIView/UIView+Enumerate.swift",
+      "line": 21,
+      "symbol": "UIView.AllSubviewsIncludeOption.skip",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Extensions/UIView/UIView+Enumerate.swift",
+      "line": 22,
+      "symbol": "UIView.AllSubviewsIncludeOption.skipSubviews",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Extensions/UIView/UIView+Enumerate.swift",
+      "line": 23,
+      "symbol": "UIView.AllSubviewsIncludeOption.include",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Utils/AttributedLocalizedError.swift",
+      "line": 18,
+      "symbol": "AttributedLocalizedError.errorDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Utils/AttributedLocalizedError.swift",
+      "line": 22,
+      "symbol": "AttributedLocalizedError.attributedErrorDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Core/Utils/KeyboardObserver.swift",
+      "line": 54,
+      "symbol": "KeyboardObserver.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/FormElementController.swift",
+      "line": 156,
+      "symbol": "FormElementController.accessibilityInitialActivationView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/Input/FormInputElementController.swift",
+      "line": 35,
+      "symbol": "FormInputElementController.inputField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/Input/FormInputElementController.swift",
+      "line": 428,
+      "symbol": "FormInputElementController.textFieldShouldBeginEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/Input/FormInputElementController.swift",
+      "line": 432,
+      "symbol": "FormInputElementController.textFieldDidBeginEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/Input/FormInputElementController.swift",
+      "line": 436,
+      "symbol": "FormInputElementController.textFieldShouldReturn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/Input/FormInputElementController.swift",
+      "line": 445,
+      "symbol": "FormInputElementController.textViewShouldBeginEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/Input/FormInputElementController.swift",
+      "line": 449,
+      "symbol": "FormInputElementController.textViewDidBeginEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/Input/FormInputElementController.swift",
+      "line": 453,
+      "symbol": "FormInputElementController.textViewDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/Core/Input/FormInputElementController.swift",
+      "line": 459,
+      "symbol": "FormInputElementController.accessibilityInitialActivationView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": null,
+      "symbol": "FormViewControllerDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 16,
+      "symbol": "FormViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 20,
+      "symbol": "FormViewController.Mode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 21,
+      "symbol": "FormViewController.Mode.create",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 22,
+      "symbol": "FormViewController.Mode.edit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 27,
+      "symbol": "FormViewController.form",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 28,
+      "symbol": "FormViewController.mode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 30,
+      "symbol": "FormViewController.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 87,
+      "symbol": "FormViewController.set(delegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 97,
+      "symbol": "FormViewController.init(form:mode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 114,
+      "symbol": "FormViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 120,
+      "symbol": "FormViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 131,
+      "symbol": "FormViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 246,
+      "symbol": "FormViewController.viewWillLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 252,
+      "symbol": "FormViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 301,
+      "symbol": "FormViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 307,
+      "symbol": "FormViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 319,
+      "symbol": "FormViewController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 329,
+      "symbol": "FormViewController.viewDidDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 343,
+      "symbol": "FormViewController.preferredStatusBarStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 361,
+      "symbol": "FormViewController.accessibilityPerformEscape()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 737,
+      "symbol": "FormViewController.scrollViewDidChangeAdjustedContentInset(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 741,
+      "symbol": "FormViewController.scrollViewDidScroll(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 783,
+      "symbol": "FormViewController.presentationController(forPresented:presenting:source:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 893,
+      "symbol": "FormViewControllerDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 895,
+      "symbol": "FormViewControllerDelegate.didCreate(data:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 896,
+      "symbol": "FormViewControllerDelegate.didClose(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Forms/UI/FormViewController.swift",
+      "line": 900,
+      "symbol": "FormViewControllerDelegate.didClose(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 39,
+      "symbol": "BlurPresentationController.init(presentedViewController:presenting:blurMode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 99,
+      "symbol": "BlurPresentationController.blurMode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 101,
+      "symbol": "BlurPresentationController.blurEffectStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 107,
+      "symbol": "BlurPresentationController.overlayAlpha",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 116,
+      "symbol": "BlurPresentationController.overlayBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 127,
+      "symbol": "BlurPresentationController.shouldRemovePresentersView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 131,
+      "symbol": "BlurPresentationController.frameOfPresentedViewInContainerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 137,
+      "symbol": "BlurPresentationController.containerViewWillLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 145,
+      "symbol": "BlurPresentationController.presentationTransitionWillBegin()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 163,
+      "symbol": "BlurPresentationController.presentationTransitionDidEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 172,
+      "symbol": "BlurPresentationController.dismissalTransitionWillBegin()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/BlurPresentationController.swift",
+      "line": 184,
+      "symbol": "BlurPresentationController.dismissalTransitionDidEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/MaskSlideAnimationController.swift",
+      "line": 70,
+      "symbol": "MaskSlideAnimationController.transitionDuration(using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/MaskSlideAnimationController.swift",
+      "line": 74,
+      "symbol": "MaskSlideAnimationController.animateTransition(using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 12,
+      "symbol": "ModalBlurPresentationController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 16,
+      "symbol": "ModalBlurPresentationController.init(presentedViewController:presenting:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 25,
+      "symbol": "ModalBlurPresentationController.navigationBarHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 26,
+      "symbol": "ModalBlurPresentationController.closeButtonRightOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 28,
+      "symbol": "ModalBlurPresentationController.bottomInset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 48,
+      "symbol": "ModalBlurPresentationController.frameOfPresentedViewInContainerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 56,
+      "symbol": "ModalBlurPresentationController.containerViewWillLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 80,
+      "symbol": "ModalBlurPresentationController.presentationTransitionWillBegin()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 99,
+      "symbol": "ModalBlurPresentationController.presentationTransitionDidEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 107,
+      "symbol": "ModalBlurPresentationController.dismissalTransitionWillBegin()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Presentation/ModalBlurPresentationController.swift",
+      "line": 119,
+      "symbol": "ModalBlurPresentationController.dismissalTransitionDidEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Containers/ForwardingContainerView.swift",
+      "line": 14,
+      "symbol": "ForwardingContainerView.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Containers/ForwardingContainerView.swift",
+      "line": 16,
+      "symbol": "ForwardingContainerView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Containers/ForwardingContainerView.swift",
+      "line": 22,
+      "symbol": "ForwardingContainerView.point(inside:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Containers/LightWeightView.swift",
+      "line": 44,
+      "symbol": "LightWeightView.layerClass",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Containers/NibWrapperView.swift",
+      "line": 17,
+      "symbol": "NibWrapperView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Containers/NibWrapperView.swift",
+      "line": 23,
+      "symbol": "NibWrapperView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Containers/TapThroughView.swift",
+      "line": 17,
+      "symbol": "TapThroughView.hitTest(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUIButton.swift",
+      "line": 18,
+      "symbol": "AUIButton.isHighlighted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUIButton.swift",
+      "line": 29,
+      "symbol": "AUIButton.isSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUIButton.swift",
+      "line": 40,
+      "symbol": "AUIButton.isEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUIButton.swift",
+      "line": 55,
+      "symbol": "AUIButton.tintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUIButton.swift",
+      "line": 115,
+      "symbol": "AUIButton.point(inside:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 35,
+      "symbol": "AUISwitch.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 42,
+      "symbol": "AUISwitch.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 46,
+      "symbol": "AUISwitch.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 130,
+      "symbol": "AUISwitch.beginTracking(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 136,
+      "symbol": "AUISwitch.continueTracking(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 152,
+      "symbol": "AUISwitch.endTracking(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 161,
+      "symbol": "AUISwitch.isEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 167,
+      "symbol": "AUISwitch.isHighlighted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 243,
+      "symbol": "AUISwitch.accessibilityLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 253,
+      "symbol": "AUISwitch.accessibilityAttributedLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 262,
+      "symbol": "AUISwitch.accessibilityHint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 272,
+      "symbol": "AUISwitch.accessibilityAttributedHint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 281,
+      "symbol": "AUISwitch.accessibilityValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 291,
+      "symbol": "AUISwitch.accessibilityAttributedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 300,
+      "symbol": "AUISwitch.accessibilityTraits",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 309,
+      "symbol": "AUISwitch.accessibilityLanguage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 317,
+      "symbol": "AUISwitch.point(inside:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUISwitch.swift",
+      "line": 327,
+      "symbol": "AUISwitch.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUITextField.swift",
+      "line": 25,
+      "symbol": "AUITextField.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUITextField.swift",
+      "line": 29,
+      "symbol": "AUITextField.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUITextField.swift",
+      "line": 56,
+      "symbol": "AUITextField.placeholder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUITextField.swift",
+      "line": 90,
+      "symbol": "AUITextField.point(inside:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUITextView.swift",
+      "line": 20,
+      "symbol": "AUITextView.init(frame:textContainer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUITextView.swift",
+      "line": 27,
+      "symbol": "AUITextView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUITextView.swift",
+      "line": 32,
+      "symbol": "AUITextView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AUITextView.swift",
+      "line": 60,
+      "symbol": "AUITextView.point(inside:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AutoSizingTextView.swift",
+      "line": 48,
+      "symbol": "AutoSizeTextView.frame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AutoSizingTextView.swift",
+      "line": 54,
+      "symbol": "AutoSizeTextView.bounds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AutoSizingTextView.swift",
+      "line": 60,
+      "symbol": "AutoSizeTextView.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AutoSizingTextView.swift",
+      "line": 66,
+      "symbol": "AutoSizeTextView.attributedText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AutoSizingTextView.swift",
+      "line": 108,
+      "symbol": "AutoSizeTextView.systemLayoutSizeFitting(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AutoSizingTextView.swift",
+      "line": 114,
+      "symbol": "AutoSizeTextView.invalidateIntrinsicContentSize()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/AutoSizingTextView.swift",
+      "line": 119,
+      "symbol": "AutoSizeTextView.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/CopyLabel/CopyLabel.swift",
+      "line": 42,
+      "symbol": "CopyLabel.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/CopyLabel/CopyLabel.swift",
+      "line": 47,
+      "symbol": "CopyLabel.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/CopyLabel/CopyLabel.swift",
+      "line": 51,
+      "symbol": "CopyLabel.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/CopyLabel/CopyLabel.swift",
+      "line": 99,
+      "symbol": "CopyLabel.gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": null,
+      "symbol": "ItemPickerViewAccessibilityDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": null,
+      "symbol": "ItemPickerViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 11,
+      "symbol": "ItemPickerView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 15,
+      "symbol": "ItemPickerView.dataSource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 24,
+      "symbol": "ItemPickerView.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 33,
+      "symbol": "ItemPickerView.selectedIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 42,
+      "symbol": "ItemPickerView.setSelectedIndex(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 64,
+      "symbol": "ItemPickerView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 69,
+      "symbol": "ItemPickerView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 73,
+      "symbol": "ItemPickerView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 88,
+      "symbol": "ItemPickerView.isEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 96,
+      "symbol": "ItemPickerView.reloadItems()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 146,
+      "symbol": "ItemPickerView.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 152,
+      "symbol": "ItemPickerView.accessibilityElements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 166,
+      "symbol": "ItemPickerViewDataSource",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 167,
+      "symbol": "ItemPickerViewDataSource.items(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 170,
+      "symbol": "ItemPickerViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 171,
+      "symbol": "ItemPickerViewDelegate.didSelectItem(_:atIndex:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 175,
+      "symbol": "ItemPickerViewDelegate.didSelectItem(_:atIndex:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 180,
+      "symbol": "ItemPickerViewAccessibilityDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 181,
+      "symbol": "ItemPickerViewAccessibilityDelegate.accessibilityLabel(forItemAtIndex:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 182,
+      "symbol": "ItemPickerViewAccessibilityDelegate.accessibilityHint(forItemAtIndex:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 183,
+      "symbol": "ItemPickerViewAccessibilityDelegate.accessibilityIdentifier(forItemAtIndex:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 187,
+      "symbol": "ItemPickerViewAccessibilityDelegate.accessibilityLabel(forItemAtIndex:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 191,
+      "symbol": "ItemPickerViewAccessibilityDelegate.accessibilityHint(forItemAtIndex:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/ItemPickerView/ItemPickerView.swift",
+      "line": 195,
+      "symbol": "ItemPickerViewAccessibilityDelegate.accessibilityIdentifier(forItemAtIndex:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/PrimaryButton.swift",
+      "line": 17,
+      "symbol": "PrimaryButton.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/PrimaryButton.swift",
+      "line": 22,
+      "symbol": "PrimaryButton.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/PrimaryButton.swift",
+      "line": 26,
+      "symbol": "PrimaryButton.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/PrimaryButton.swift",
+      "line": 48,
+      "symbol": "PrimaryButton.setTitle(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/PrimaryButton.swift",
+      "line": 54,
+      "symbol": "PrimaryButton.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/SecondaryButton.swift",
+      "line": 17,
+      "symbol": "SecondaryButton.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/SecondaryButton.swift",
+      "line": 22,
+      "symbol": "SecondaryButton.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/SecondaryButton.swift",
+      "line": 26,
+      "symbol": "SecondaryButton.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/SecondaryButton.swift",
+      "line": 56,
+      "symbol": "SecondaryButton.setTitle(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Controls/SecondaryButton.swift",
+      "line": 62,
+      "symbol": "SecondaryButton.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Labels/AUILabel.swift",
+      "line": 18,
+      "symbol": "AUILabel.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Labels/AUILabel.swift",
+      "line": 23,
+      "symbol": "AUILabel.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Labels/AUILabel.swift",
+      "line": 30,
+      "symbol": "AUILabel.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Labels/AUILabel.swift",
+      "line": 96,
+      "symbol": "AUILabel.frame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Labels/AUILabel.swift",
+      "line": 105,
+      "symbol": "AUILabel.bounds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Labels/AUILabel.swift",
+      "line": 160,
+      "symbol": "AUILabel.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/AccessibilityLabelContainerView.swift",
+      "line": 116,
+      "symbol": "AccessibilityLabelContainerView.isAccessibilityElement",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/AccessibilityLabelContainerView.swift",
+      "line": 125,
+      "symbol": "AccessibilityLabelContainerView.accessibilityLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/AccessibilityLabelContainerView.swift",
+      "line": 135,
+      "symbol": "AccessibilityLabelContainerView.accessibilityAttributedLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/AccessibilityLabelContainerView.swift",
+      "line": 148,
+      "symbol": "AccessibilityLabelContainerStackView.isAccessibilityElement",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/AccessibilityLabelContainerView.swift",
+      "line": 157,
+      "symbol": "AccessibilityLabelContainerStackView.accessibilityLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/AccessibilityLabelContainerView.swift",
+      "line": 167,
+      "symbol": "AccessibilityLabelContainerStackView.accessibilityAttributedLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/TemplateImageView.swift",
+      "line": 16,
+      "symbol": "TemplateImageView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/TemplateImageView.swift",
+      "line": 20,
+      "symbol": "TemplateImageView.init(image:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/TemplateImageView.swift",
+      "line": 24,
+      "symbol": "TemplateImageView.init(image:highlightedImage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/TemplateImageView.swift",
+      "line": 30,
+      "symbol": "TemplateImageView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/TemplateImageView.swift",
+      "line": 34,
+      "symbol": "TemplateImageView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/TemplateImageView.swift",
+      "line": 42,
+      "symbol": "TemplateImageView.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI/AdidasUI/UI/Views/Miscellaneous/TemplateImageView.swift",
+      "line": 51,
+      "symbol": "TemplateImageView.highlightedImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/aliagfer/Desktop/git/adidas-ui-ios/AdidasUI"
+}
